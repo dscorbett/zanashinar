@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1517877303
+ModificationTime: 1517878858
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -59,6 +59,8 @@ OS2Vendor: '    '
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000001.02000000.00000040.00000000
 Lookup: 1 0 0 "null" { } []
+Lookup: 6 0 0 "'ccmp' lower form" { "'ccmp' lower form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "lower form" { "lower form-1" ("low") } []
 Lookup: 6 0 0 "'ccmp' head form" { "'ccmp' head form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "head form" { "head form-1"  } []
 Lookup: 6 0 0 "'ccmp' squished form" { "'ccmp' squished form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -72,6 +74,13 @@ Lookup: 260 0 0 "'mark' subjoined consonant or vowel length mark" { "'mark' subj
 Lookup: 262 0 0 "'mkmk' subjoined consonant or vowel length mark" { "'mkmk' subjoined consonant or vowel length mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'ccmp' lower form-1" 0 0 0 1
+ 1 1 0
+  Coverage: 6 u11A3E
+  BCoverage: 272 u11A00 u11A0B u11A0C u11A0D u11A0E u11A0F u11A10 u11A11 u11A12 u11A13 u11A15 u11A16 u11A17 u11A18 u11A19 u11A1A u11A1B u11A1C u11A1D u11A1E u11A1F u11A20 u11A21 u11A22 u11A23 u11A24 u11A25 u11A26 u11A27 u11A28 u11A29 u11A2A u11A2B u11A2C u11A2E u11A2F u11A30 u11A31 u11A32
+ 1
+  SeqLookup: 0 "lower form"
+EndFPST
 ChainSub2: class "'ccmp' head form-1" 3 3 3 2
   Class: 13 u11A2C u11A30
   Class: 6 u11A47
@@ -98,7 +107,7 @@ EndFPST
 ChainSub2: coverage "'ccmp' squished form-1" 0 0 0 1
  1 1 0
   Coverage: 104 u11A0B u11A0D u11A0F u11A10 u11A12 u11A13 u11A19 u11A1B u11A1D u11A1E u11A20 u11A22 u11A23 u11A25 u11A31
-  BCoverage: 6 u11A3A
+  BCoverage: 34 u11A2C_u11A47 u11A30_u11A47 u11A3A
  1
   SeqLookup: 0 "squished form"
 EndFPST
@@ -135,7 +144,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116576 16 9
+WinInfo: 1116784 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -4214,7 +4223,7 @@ SplineSet
  200 1500 l 1,11,-1
  1000 1500 l 1,0,-1
 EndSplineSet
-Substitution2: "head form-1" u11A2C.11A47
+Substitution2: "head form-1" u11A2C_u11A47
 EndChar
 
 StartChar: u11A2D
@@ -4341,7 +4350,7 @@ SplineSet
  200 1500 l 1,9,-1
  400 1500 l 1,0,-1
 EndSplineSet
-Substitution2: "head form-1" u11A30.11A47
+Substitution2: "head form-1" u11A30_u11A47
 EndChar
 
 StartChar: u11A31
@@ -4755,6 +4764,7 @@ SplineSet
  -1300 -367 l 1,5,-1
  -200 0 l 1,3,-1
 EndSplineSet
+Substitution2: "lower form-1" u11A3E.low
 EndChar
 
 StartChar: u11A3F
@@ -26224,7 +26234,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A3E.joined
+StartChar: u11A3E.low
 Encoding: 1115873 -1 776
 Width: 0
 GlyphClass: 4
@@ -26662,7 +26672,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A2C.11A47
+StartChar: u11A2C_u11A47
 Encoding: 1116571 -1 792
 Width: 1800
 GlyphClass: 2
@@ -26772,7 +26782,7 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A30.11A47
+StartChar: u11A30_u11A47
 Encoding: 1116675 -1 796
 Width: 1800
 GlyphClass: 2
@@ -26832,7 +26842,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A00.sub
+StartChar: u11A47_u11A00
 Encoding: 1116799 -1 798
 Width: 0
 GlyphClass: 2
@@ -26866,7 +26876,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A00
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A0B.sub
+StartChar: u11A47_u11A0B
 Encoding: 1116800 -1 799
 Width: 0
 GlyphClass: 2
@@ -26898,7 +26908,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0B
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A0C.sub
+StartChar: u11A47_u11A0C
 Encoding: 1116801 -1 800
 Width: 0
 GlyphClass: 2
@@ -26929,7 +26939,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0C
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A0D.sub
+StartChar: u11A47_u11A0D
 Encoding: 1116802 -1 801
 Width: 0
 GlyphClass: 2
@@ -26960,7 +26970,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0D
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A0E.sub
+StartChar: u11A47_u11A0E
 Encoding: 1116803 -1 802
 Width: 0
 GlyphClass: 2
@@ -26995,7 +27005,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0E
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A0F.sub
+StartChar: u11A47_u11A0F
 Encoding: 1116804 -1 803
 Width: 0
 GlyphClass: 2
@@ -27025,7 +27035,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0F
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A10.sub
+StartChar: u11A47_u11A10
 Encoding: 1116805 -1 804
 Width: 0
 GlyphClass: 2
@@ -27056,7 +27066,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A10
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A11.sub
+StartChar: u11A47_u11A11
 Encoding: 1116806 -1 805
 Width: 0
 GlyphClass: 2
@@ -27088,7 +27098,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A11
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A12.sub
+StartChar: u11A47_u11A12
 Encoding: 1116807 -1 806
 Width: 0
 GlyphClass: 2
@@ -27118,7 +27128,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A12
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A13.sub
+StartChar: u11A47_u11A13
 Encoding: 1116808 -1 807
 Width: 0
 GlyphClass: 2
@@ -27150,7 +27160,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A13
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A14.sub
+StartChar: u11A47_u11A14
 Encoding: 1116809 -1 808
 Width: 0
 GlyphClass: 2
@@ -27180,7 +27190,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A14
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A15.sub
+StartChar: u11A47_u11A15
 Encoding: 1116810 -1 809
 Width: 0
 GlyphClass: 2
@@ -27212,7 +27222,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A15
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A16.sub
+StartChar: u11A47_u11A16
 Encoding: 1116811 -1 810
 Width: 0
 GlyphClass: 2
@@ -27238,7 +27248,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A16
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A17.sub
+StartChar: u11A47_u11A17
 Encoding: 1116812 -1 811
 Width: 0
 GlyphClass: 2
@@ -27266,7 +27276,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A17
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A18.sub
+StartChar: u11A47_u11A18
 Encoding: 1116813 -1 812
 Width: 0
 GlyphClass: 2
@@ -27296,7 +27306,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A18
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A19.sub
+StartChar: u11A47_u11A19
 Encoding: 1116814 -1 813
 Width: 0
 GlyphClass: 2
@@ -27326,7 +27336,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A19
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1A.sub
+StartChar: u11A47_u11A1A
 Encoding: 1116815 -1 814
 Width: 0
 GlyphClass: 2
@@ -27358,7 +27368,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1A
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1B.sub
+StartChar: u11A47_u11A1B
 Encoding: 1116816 -1 815
 Width: 0
 GlyphClass: 2
@@ -27388,7 +27398,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1B
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1C.sub
+StartChar: u11A47_u11A1C
 Encoding: 1116817 -1 816
 Width: 0
 GlyphClass: 2
@@ -27423,7 +27433,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1C
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1D.sub
+StartChar: u11A47_u11A1D
 Encoding: 1116818 -1 817
 Width: 0
 GlyphClass: 2
@@ -27458,7 +27468,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1D
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1E.sub
+StartChar: u11A47_u11A1E
 Encoding: 1116819 -1 818
 Width: 0
 GlyphClass: 2
@@ -27484,7 +27494,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1E
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A1F.sub
+StartChar: u11A47_u11A1F
 Encoding: 1116820 -1 819
 Width: 0
 GlyphClass: 2
@@ -27515,7 +27525,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A1F
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A20.sub
+StartChar: u11A47_u11A20
 Encoding: 1116821 -1 820
 Width: 0
 GlyphClass: 2
@@ -27542,7 +27552,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A20
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A21.sub
+StartChar: u11A47_u11A21
 Encoding: 1116822 -1 821
 Width: 0
 GlyphClass: 2
@@ -27571,7 +27581,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A21
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A22.sub
+StartChar: u11A47_u11A22
 Encoding: 1116823 -1 822
 Width: 0
 GlyphClass: 2
@@ -27602,7 +27612,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A22
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A23.sub
+StartChar: u11A47_u11A23
 Encoding: 1116824 -1 823
 Width: 0
 GlyphClass: 2
@@ -27640,7 +27650,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A23
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A24.sub
+StartChar: u11A47_u11A24
 Encoding: 1116825 -1 824
 Width: 0
 GlyphClass: 2
@@ -27679,7 +27689,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A24
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A25.sub
+StartChar: u11A47_u11A25
 Encoding: 1116826 -1 825
 Width: 0
 GlyphClass: 2
@@ -27715,7 +27725,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A25
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A26.sub
+StartChar: u11A47_u11A26
 Encoding: 1116827 -1 826
 Width: 0
 GlyphClass: 2
@@ -27768,7 +27778,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A26
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A27.sub
+StartChar: u11A47_u11A27
 Encoding: 1116828 -1 827
 Width: 0
 GlyphClass: 2
@@ -27803,7 +27813,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A27
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A28.sub
+StartChar: u11A47_u11A28
 Encoding: 1116829 -1 828
 Width: 0
 GlyphClass: 2
@@ -27833,7 +27843,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A28
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A29.sub
+StartChar: u11A47_u11A29
 Encoding: 1116830 -1 829
 Width: 0
 GlyphClass: 2
@@ -27865,7 +27875,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A29
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2A.sub
+StartChar: u11A47_u11A2A
 Encoding: 1116831 -1 830
 Width: 0
 GlyphClass: 2
@@ -27895,7 +27905,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2A
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2B.sub
+StartChar: u11A47_u11A2B
 Encoding: 1116832 -1 831
 Width: 0
 GlyphClass: 2
@@ -27929,7 +27939,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2B
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2C.sub
+StartChar: u11A47_u11A2C
 Encoding: 1116833 -1 832
 Width: 0
 GlyphClass: 2
@@ -27959,7 +27969,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2C
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2D.sub
+StartChar: u11A47_u11A2D
 Encoding: 1116834 -1 833
 Width: 0
 GlyphClass: 2
@@ -28003,7 +28013,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2D
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2E.sub
+StartChar: u11A47_u11A2E
 Encoding: 1116835 -1 834
 Width: 0
 GlyphClass: 2
@@ -28038,7 +28048,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2E
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A2F.sub
+StartChar: u11A47_u11A2F
 Encoding: 1116836 -1 835
 Width: 0
 GlyphClass: 2
@@ -28073,7 +28083,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A2F
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A30.sub
+StartChar: u11A47_u11A30
 Encoding: 1116837 -1 836
 Width: 0
 GlyphClass: 2
@@ -28101,7 +28111,7 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A30
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A31.sub
+StartChar: u11A47_u11A31
 Encoding: 1116838 -1 837
 Width: 0
 GlyphClass: 2
@@ -28133,14 +28143,14 @@ Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A31
 LCarets2: 1 0
 EndChar
 
-StartChar: u11A32.sub
+StartChar: u11A47_u11A32
 Encoding: 1116839 -1 838
 Width: 0
 GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
 AnchorPoint: "vowel-below" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -350 mark 0
+AnchorPoint: "vowel-length" 300 -350 mark 0
 AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
