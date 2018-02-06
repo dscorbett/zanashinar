@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1517879086
+ModificationTime: 1517886690
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -144,12 +144,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116672 16 9
+WinInfo: 72176 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
-BeginChars: 1116840 812
+BeginChars: 1116840 802
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5347,372 +5347,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A35.high
-Encoding: 1114120 -1 195
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1600 2500 m 1,1,2
- -1200 2300 -1200 2300 -900 2300 c 256,3,4
- -600 2300 -600 2300 -200 2500 c 1,5,6
- -400 2100 -400 2100 -900 2100 c 256,7,0
- -1400 2100 -1400 2100 -1600 2500 c 1,1,2
--900 2400 m 256,8,9
- -1004 2400 -1004 2400 -1077 2473 c 128,-1,10
- -1150 2546 -1150 2546 -1150 2650 c 256,11,12
- -1150 2754 -1150 2754 -1077 2827 c 128,-1,13
- -1004 2900 -1004 2900 -900 2900 c 256,14,15
- -796 2900 -796 2900 -723 2827 c 128,-1,16
- -650 2754 -650 2754 -650 2650 c 256,17,18
- -650 2546 -650 2546 -723 2473 c 128,-1,19
- -796 2400 -796 2400 -900 2400 c 256,8,9
--900 2500 m 256,20,21
- -838 2500 -838 2500 -794 2544 c 128,-1,22
- -750 2588 -750 2588 -750 2650 c 256,23,24
- -750 2712 -750 2712 -794 2756 c 128,-1,25
- -838 2800 -838 2800 -900 2800 c 256,26,27
- -962 2800 -962 2800 -1006 2756 c 128,-1,28
- -1050 2712 -1050 2712 -1050 2650 c 256,29,30
- -1050 2588 -1050 2588 -1006 2544 c 128,-1,31
- -962 2500 -962 2500 -900 2500 c 256,20,21
-EndSplineSet
-EndChar
-
-StartChar: u11A36.high
-Encoding: 1114121 -1 196
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1600 2500 m 1,1,2
- -1200 2300 -1200 2300 -900 2300 c 256,3,4
- -600 2300 -600 2300 -200 2500 c 1,5,6
- -400 2100 -400 2100 -900 2100 c 256,7,0
- -1400 2100 -1400 2100 -1600 2500 c 1,1,2
--900 2400 m 256,8,9
- -1004 2400 -1004 2400 -1077 2473 c 128,-1,10
- -1150 2546 -1150 2546 -1150 2650 c 256,11,12
- -1150 2754 -1150 2754 -1077 2827 c 128,-1,13
- -1004 2900 -1004 2900 -900 2900 c 256,14,15
- -796 2900 -796 2900 -723 2827 c 128,-1,16
- -650 2754 -650 2754 -650 2650 c 256,17,18
- -650 2546 -650 2546 -723 2473 c 128,-1,19
- -796 2400 -796 2400 -900 2400 c 256,8,9
--900 2500 m 256,20,21
- -838 2500 -838 2500 -794 2544 c 128,-1,22
- -750 2588 -750 2588 -750 2650 c 256,23,24
- -750 2712 -750 2712 -794 2756 c 128,-1,25
- -838 2800 -838 2800 -900 2800 c 256,26,27
- -962 2800 -962 2800 -1006 2756 c 128,-1,28
- -1050 2712 -1050 2712 -1050 2650 c 256,29,30
- -1050 2588 -1050 2588 -1006 2544 c 128,-1,31
- -962 2500 -962 2500 -900 2500 c 256,20,21
--650 3200 m 1,33,34
- -650 3096 -650 3096 -723 3023 c 128,-1,35
- -796 2950 -796 2950 -900 2950 c 256,36,37
- -1004 2950 -1004 2950 -1077 3023 c 128,-1,38
- -1150 3096 -1150 3096 -1144 3204 c 1,39,40
- -1134 3286 -1134 3286 -1031 3351 c 1,41,42
- -1068 3275 -1068 3275 -1066 3200 c 1,43,44
- -1050 3126 -1050 3126 -1006 3088 c 128,-1,45
- -962 3050 -962 3050 -900 3050 c 256,46,47
- -838 3050 -838 3050 -794 3094 c 128,-1,48
- -750 3138 -750 3138 -750 3200 c 256,49,50
- -750 3262 -750 3262 -794 3306 c 1,51,52
- -860 3352 -860 3352 -923 3402 c 1,53,54
- -998 3475 -998 3475 -998 3561 c 1,55,56
- -1002 3598 -1002 3598 -997 3644 c 1,57,58
- -975 3592 -975 3592 -950 3545 c 0,59,60
- -920 3496 -920 3496 -880 3461 c 1,61,62
- -841 3437 -841 3437 -808 3420 c 0,63,64
- -769 3398 -769 3398 -723 3369 c 0,65,32
- -640 3308 -640 3308 -650 3200 c 1,33,34
-EndSplineSet
-EndChar
-
-StartChar: u11A37.high
-Encoding: 1114122 -1 197
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1600 2500 m 1,0,1
- -1200 2300 -1200 2300 -900 2300 c 256,2,3
- -600 2300 -600 2300 -200 2500 c 1,4,5
- -400 2100 -400 2100 -900 2100 c 256,6,7
- -1400 2100 -1400 2100 -1600 2500 c 1,0,1
--650 2650 m 1,9,10
- -650 2546 -650 2546 -723 2473 c 128,-1,11
- -796 2400 -796 2400 -900 2400 c 256,12,13
- -1004 2400 -1004 2400 -1077 2473 c 128,-1,14
- -1150 2546 -1150 2546 -1144 2654 c 1,15,16
- -1134 2736 -1134 2736 -1031 2801 c 1,17,18
- -1068 2725 -1068 2725 -1066 2650 c 1,19,20
- -1050 2576 -1050 2576 -1006 2538 c 128,-1,21
- -962 2500 -962 2500 -900 2500 c 256,22,23
- -838 2500 -838 2500 -794 2544 c 128,-1,24
- -750 2588 -750 2588 -750 2650 c 256,25,26
- -750 2712 -750 2712 -794 2756 c 1,27,28
- -860 2802 -860 2802 -923 2852 c 1,29,30
- -998 2925 -998 2925 -998 3011 c 1,31,32
- -1002 3048 -1002 3048 -997 3094 c 1,33,34
- -975 3042 -975 3042 -950 2995 c 0,35,36
- -920 2946 -920 2946 -880 2911 c 1,37,38
- -841 2887 -841 2887 -808 2870 c 0,39,40
- -769 2848 -769 2848 -723 2819 c 0,41,8
- -640 2758 -640 2758 -650 2650 c 1,9,10
-EndSplineSet
-EndChar
-
-StartChar: u11A38.high
-Encoding: 1114123 -1 198
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--900 2100 m 256,0,1
- -1004 2100 -1004 2100 -1077 2173 c 128,-1,2
- -1150 2246 -1150 2246 -1150 2350 c 256,3,4
- -1150 2454 -1150 2454 -1077 2527 c 128,-1,5
- -1004 2600 -1004 2600 -900 2600 c 256,6,7
- -796 2600 -796 2600 -723 2527 c 128,-1,8
- -650 2454 -650 2454 -650 2350 c 256,9,10
- -650 2246 -650 2246 -723 2173 c 128,-1,11
- -796 2100 -796 2100 -900 2100 c 256,0,1
--900 2200 m 256,12,13
- -838 2200 -838 2200 -794 2244 c 128,-1,14
- -750 2288 -750 2288 -750 2350 c 256,15,16
- -750 2412 -750 2412 -794 2456 c 128,-1,17
- -838 2500 -838 2500 -900 2500 c 256,18,19
- -962 2500 -962 2500 -1006 2456 c 128,-1,20
- -1050 2412 -1050 2412 -1050 2350 c 256,21,22
- -1050 2288 -1050 2288 -1006 2244 c 128,-1,23
- -962 2200 -962 2200 -900 2200 c 256,12,13
-EndSplineSet
-EndChar
-
-StartChar: u11A38.high2
-Encoding: 1114124 -1 199
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--900 2500 m 256,0,1
- -1004 2500 -1004 2500 -1077 2573 c 128,-1,2
- -1150 2646 -1150 2646 -1150 2750 c 256,3,4
- -1150 2854 -1150 2854 -1077 2927 c 128,-1,5
- -1004 3000 -1004 3000 -900 3000 c 256,6,7
- -796 3000 -796 3000 -723 2927 c 128,-1,8
- -650 2854 -650 2854 -650 2750 c 256,9,10
- -650 2646 -650 2646 -723 2573 c 128,-1,11
- -796 2500 -796 2500 -900 2500 c 256,0,1
--900 2600 m 256,12,13
- -838 2600 -838 2600 -794 2644 c 128,-1,14
- -750 2688 -750 2688 -750 2750 c 256,15,16
- -750 2812 -750 2812 -794 2856 c 128,-1,17
- -838 2900 -838 2900 -900 2900 c 256,18,19
- -962 2900 -962 2900 -1006 2856 c 128,-1,20
- -1050 2812 -1050 2812 -1050 2750 c 256,21,22
- -1050 2688 -1050 2688 -1006 2644 c 128,-1,23
- -962 2600 -962 2600 -900 2600 c 256,12,13
-EndSplineSet
-EndChar
-
-StartChar: u11A35.wide.high
-Encoding: 1114125 -1 200
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1900 2500 m 1,1,2
- -1500 2300 -1500 2300 -1200 2300 c 256,3,4
- -900 2300 -900 2300 -500 2500 c 1,5,6
- -700 2100 -700 2100 -1200 2100 c 256,7,0
- -1700 2100 -1700 2100 -1900 2500 c 1,1,2
--1200 2400 m 256,8,9
- -1304 2400 -1304 2400 -1377 2473 c 128,-1,10
- -1450 2546 -1450 2546 -1450 2650 c 256,11,12
- -1450 2754 -1450 2754 -1377 2827 c 128,-1,13
- -1304 2900 -1304 2900 -1200 2900 c 256,14,15
- -1096 2900 -1096 2900 -1023 2827 c 128,-1,16
- -950 2754 -950 2754 -950 2650 c 256,17,18
- -950 2546 -950 2546 -1023 2473 c 128,-1,19
- -1096 2400 -1096 2400 -1200 2400 c 256,8,9
--1200 2500 m 256,20,21
- -1138 2500 -1138 2500 -1094 2544 c 128,-1,22
- -1050 2588 -1050 2588 -1050 2650 c 256,23,24
- -1050 2712 -1050 2712 -1094 2756 c 128,-1,25
- -1138 2800 -1138 2800 -1200 2800 c 256,26,27
- -1262 2800 -1262 2800 -1306 2756 c 128,-1,28
- -1350 2712 -1350 2712 -1350 2650 c 256,29,30
- -1350 2588 -1350 2588 -1306 2544 c 128,-1,31
- -1262 2500 -1262 2500 -1200 2500 c 256,20,21
-EndSplineSet
-EndChar
-
-StartChar: u11A36.wide.high
-Encoding: 1114126 -1 201
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1900 2500 m 1,1,2
- -1500 2300 -1500 2300 -1200 2300 c 256,3,4
- -900 2300 -900 2300 -500 2500 c 1,5,6
- -700 2100 -700 2100 -1200 2100 c 256,7,0
- -1700 2100 -1700 2100 -1900 2500 c 1,1,2
--1200 2400 m 256,8,9
- -1304 2400 -1304 2400 -1377 2473 c 128,-1,10
- -1450 2546 -1450 2546 -1450 2650 c 256,11,12
- -1450 2754 -1450 2754 -1377 2827 c 128,-1,13
- -1304 2900 -1304 2900 -1200 2900 c 256,14,15
- -1096 2900 -1096 2900 -1023 2827 c 128,-1,16
- -950 2754 -950 2754 -950 2650 c 256,17,18
- -950 2546 -950 2546 -1023 2473 c 128,-1,19
- -1096 2400 -1096 2400 -1200 2400 c 256,8,9
--1200 2500 m 256,20,21
- -1138 2500 -1138 2500 -1094 2544 c 128,-1,22
- -1050 2588 -1050 2588 -1050 2650 c 256,23,24
- -1050 2712 -1050 2712 -1094 2756 c 128,-1,25
- -1138 2800 -1138 2800 -1200 2800 c 256,26,27
- -1262 2800 -1262 2800 -1306 2756 c 128,-1,28
- -1350 2712 -1350 2712 -1350 2650 c 256,29,30
- -1350 2588 -1350 2588 -1306 2544 c 128,-1,31
- -1262 2500 -1262 2500 -1200 2500 c 256,20,21
--950 3200 m 1,33,34
- -950 3096 -950 3096 -1023 3023 c 128,-1,35
- -1096 2950 -1096 2950 -1200 2950 c 256,36,37
- -1304 2950 -1304 2950 -1377 3023 c 128,-1,38
- -1450 3096 -1450 3096 -1444 3204 c 1,39,40
- -1434 3286 -1434 3286 -1331 3351 c 1,41,42
- -1368 3275 -1368 3275 -1366 3200 c 1,43,44
- -1350 3126 -1350 3126 -1306 3088 c 128,-1,45
- -1262 3050 -1262 3050 -1200 3050 c 256,46,47
- -1138 3050 -1138 3050 -1094 3094 c 128,-1,48
- -1050 3138 -1050 3138 -1050 3200 c 256,49,50
- -1050 3262 -1050 3262 -1094 3306 c 1,51,52
- -1160 3352 -1160 3352 -1223 3402 c 1,53,54
- -1298 3475 -1298 3475 -1298 3561 c 1,55,56
- -1302 3598 -1302 3598 -1297 3644 c 1,57,58
- -1275 3592 -1275 3592 -1250 3545 c 0,59,60
- -1220 3496 -1220 3496 -1180 3461 c 1,61,62
- -1141 3437 -1141 3437 -1108 3420 c 0,63,64
- -1069 3398 -1069 3398 -1023 3369 c 0,65,32
- -940 3308 -940 3308 -950 3200 c 1,33,34
-EndSplineSet
-EndChar
-
-StartChar: u11A37.wide.high
-Encoding: 1114127 -1 202
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1900 2500 m 1,0,1
- -1500 2300 -1500 2300 -1200 2300 c 256,2,3
- -900 2300 -900 2300 -500 2500 c 1,4,5
- -700 2100 -700 2100 -1200 2100 c 256,6,7
- -1700 2100 -1700 2100 -1900 2500 c 1,0,1
--950 2650 m 1,9,10
- -950 2546 -950 2546 -1023 2473 c 128,-1,11
- -1096 2400 -1096 2400 -1200 2400 c 256,12,13
- -1304 2400 -1304 2400 -1377 2473 c 128,-1,14
- -1450 2546 -1450 2546 -1444 2654 c 1,15,16
- -1434 2736 -1434 2736 -1331 2801 c 1,17,18
- -1368 2725 -1368 2725 -1366 2650 c 1,19,20
- -1350 2576 -1350 2576 -1306 2538 c 128,-1,21
- -1262 2500 -1262 2500 -1200 2500 c 256,22,23
- -1138 2500 -1138 2500 -1094 2544 c 128,-1,24
- -1050 2588 -1050 2588 -1050 2650 c 256,25,26
- -1050 2712 -1050 2712 -1094 2756 c 1,27,28
- -1160 2802 -1160 2802 -1223 2852 c 1,29,30
- -1298 2925 -1298 2925 -1298 3011 c 1,31,32
- -1302 3048 -1302 3048 -1297 3094 c 1,33,34
- -1275 3042 -1275 3042 -1250 2995 c 0,35,36
- -1220 2946 -1220 2946 -1180 2911 c 1,37,38
- -1141 2887 -1141 2887 -1108 2870 c 0,39,40
- -1069 2848 -1069 2848 -1023 2819 c 0,41,8
- -940 2758 -940 2758 -950 2650 c 1,9,10
-EndSplineSet
-EndChar
-
-StartChar: u11A38.wide.high
-Encoding: 1114128 -1 203
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1200 2100 m 256,0,1
- -1304 2100 -1304 2100 -1377 2173 c 128,-1,2
- -1450 2246 -1450 2246 -1450 2350 c 256,3,4
- -1450 2454 -1450 2454 -1377 2527 c 128,-1,5
- -1304 2600 -1304 2600 -1200 2600 c 256,6,7
- -1096 2600 -1096 2600 -1023 2527 c 128,-1,8
- -950 2454 -950 2454 -950 2350 c 256,9,10
- -950 2246 -950 2246 -1023 2173 c 128,-1,11
- -1096 2100 -1096 2100 -1200 2100 c 256,0,1
--1200 2200 m 256,12,13
- -1138 2200 -1138 2200 -1094 2244 c 128,-1,14
- -1050 2288 -1050 2288 -1050 2350 c 256,15,16
- -1050 2412 -1050 2412 -1094 2456 c 128,-1,17
- -1138 2500 -1138 2500 -1200 2500 c 256,18,19
- -1262 2500 -1262 2500 -1306 2456 c 128,-1,20
- -1350 2412 -1350 2412 -1350 2350 c 256,21,22
- -1350 2288 -1350 2288 -1306 2244 c 128,-1,23
- -1262 2200 -1262 2200 -1200 2200 c 256,12,13
-EndSplineSet
-EndChar
-
-StartChar: u11A38.wide.high2
-Encoding: 1114129 -1 204
-Width: 0
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
--1200 2500 m 256,0,1
- -1304 2500 -1304 2500 -1377 2573 c 128,-1,2
- -1450 2646 -1450 2646 -1450 2750 c 256,3,4
- -1450 2854 -1450 2854 -1377 2927 c 128,-1,5
- -1304 3000 -1304 3000 -1200 3000 c 256,6,7
- -1096 3000 -1096 3000 -1023 2927 c 128,-1,8
- -950 2854 -950 2854 -950 2750 c 256,9,10
- -950 2646 -950 2646 -1023 2573 c 128,-1,11
- -1096 2500 -1096 2500 -1200 2500 c 256,0,1
--1200 2600 m 256,12,13
- -1138 2600 -1138 2600 -1094 2644 c 128,-1,14
- -1050 2688 -1050 2688 -1050 2750 c 256,15,16
- -1050 2812 -1050 2812 -1094 2856 c 128,-1,17
- -1138 2900 -1138 2900 -1200 2900 c 256,18,19
- -1262 2900 -1262 2900 -1306 2856 c 128,-1,20
- -1350 2812 -1350 2812 -1350 2750 c 256,21,22
- -1350 2688 -1350 2688 -1306 2644 c 128,-1,23
- -1262 2600 -1262 2600 -1200 2600 c 256,12,13
-EndSplineSet
-EndChar
-
 StartChar: u11A01.wide
-Encoding: 1114171 -1 205
+Encoding: 1114171 -1 195
 Width: 2400
 GlyphClass: 4
 Flags: W
@@ -5729,7 +5365,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A01.11A07
-Encoding: 1114212 -1 206
+Encoding: 1114212 -1 196
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -5766,7 +5402,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A01.11A07
-Encoding: 1114213 -1 207
+Encoding: 1114213 -1 197
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5801,7 +5437,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A01.11A07
-Encoding: 1114214 -1 208
+Encoding: 1114214 -1 198
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5835,7 +5471,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A01.11A07
-Encoding: 1114215 -1 209
+Encoding: 1114215 -1 199
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5869,7 +5505,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A01.11A07
-Encoding: 1114216 -1 210
+Encoding: 1114216 -1 200
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5907,7 +5543,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A01.11A07
-Encoding: 1114217 -1 211
+Encoding: 1114217 -1 201
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5940,7 +5576,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A01.11A07
-Encoding: 1114218 -1 212
+Encoding: 1114218 -1 202
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -5974,7 +5610,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A01.11A07
-Encoding: 1114219 -1 213
+Encoding: 1114219 -1 203
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6009,7 +5645,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A01.11A07
-Encoding: 1114220 -1 214
+Encoding: 1114220 -1 204
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6042,7 +5678,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A01.11A07
-Encoding: 1114221 -1 215
+Encoding: 1114221 -1 205
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6077,7 +5713,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A01.11A07
-Encoding: 1114222 -1 216
+Encoding: 1114222 -1 206
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6110,7 +5746,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A01.11A07
-Encoding: 1114223 -1 217
+Encoding: 1114223 -1 207
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6147,7 +5783,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A01.11A07
-Encoding: 1114224 -1 218
+Encoding: 1114224 -1 208
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6176,7 +5812,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A01.11A07
-Encoding: 1114225 -1 219
+Encoding: 1114225 -1 209
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6207,7 +5843,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A01.11A07
-Encoding: 1114226 -1 220
+Encoding: 1114226 -1 210
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6240,7 +5876,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A01.11A07
-Encoding: 1114227 -1 221
+Encoding: 1114227 -1 211
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6273,7 +5909,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A01.11A07
-Encoding: 1114228 -1 222
+Encoding: 1114228 -1 212
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6308,7 +5944,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A01.11A07
-Encoding: 1114229 -1 223
+Encoding: 1114229 -1 213
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6341,7 +5977,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A01.11A07
-Encoding: 1114230 -1 224
+Encoding: 1114230 -1 214
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6379,7 +6015,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A01.11A07
-Encoding: 1114231 -1 225
+Encoding: 1114231 -1 215
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6417,7 +6053,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A01.11A07
-Encoding: 1114232 -1 226
+Encoding: 1114232 -1 216
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6446,7 +6082,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A01.11A07
-Encoding: 1114233 -1 227
+Encoding: 1114233 -1 217
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6480,7 +6116,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A01.11A07
-Encoding: 1114234 -1 228
+Encoding: 1114234 -1 218
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6510,7 +6146,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A01.11A07
-Encoding: 1114235 -1 229
+Encoding: 1114235 -1 219
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6542,7 +6178,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A01.11A07
-Encoding: 1114236 -1 230
+Encoding: 1114236 -1 220
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6576,7 +6212,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A01.11A07
-Encoding: 1114237 -1 231
+Encoding: 1114237 -1 221
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6618,7 +6254,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A01.11A07
-Encoding: 1114238 -1 232
+Encoding: 1114238 -1 222
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6661,7 +6297,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A01.11A07
-Encoding: 1114239 -1 233
+Encoding: 1114239 -1 223
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6702,7 +6338,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A01.11A07
-Encoding: 1114240 -1 234
+Encoding: 1114240 -1 224
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6760,7 +6396,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A01.11A07
-Encoding: 1114241 -1 235
+Encoding: 1114241 -1 225
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6798,7 +6434,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A01.11A07
-Encoding: 1114242 -1 236
+Encoding: 1114242 -1 226
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6831,7 +6467,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A01.11A07
-Encoding: 1114243 -1 237
+Encoding: 1114243 -1 227
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6866,7 +6502,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A01.11A07
-Encoding: 1114244 -1 238
+Encoding: 1114244 -1 228
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6899,7 +6535,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A01.11A07
-Encoding: 1114245 -1 239
+Encoding: 1114245 -1 229
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6936,7 +6572,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A01.11A07
-Encoding: 1114246 -1 240
+Encoding: 1114246 -1 230
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -6969,7 +6605,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A01.11A07
-Encoding: 1114247 -1 241
+Encoding: 1114247 -1 231
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7016,7 +6652,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A01.11A07
-Encoding: 1114248 -1 242
+Encoding: 1114248 -1 232
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7054,7 +6690,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A01.11A07
-Encoding: 1114249 -1 243
+Encoding: 1114249 -1 233
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7092,7 +6728,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A01.11A07
-Encoding: 1114250 -1 244
+Encoding: 1114250 -1 234
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7123,7 +6759,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A01.11A07
-Encoding: 1114251 -1 245
+Encoding: 1114251 -1 235
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7158,7 +6794,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A01.11A07
-Encoding: 1114252 -1 246
+Encoding: 1114252 -1 236
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7195,7 +6831,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A01.11A08
-Encoding: 1114253 -1 247
+Encoding: 1114253 -1 237
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -7232,7 +6868,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A01.11A08
-Encoding: 1114254 -1 248
+Encoding: 1114254 -1 238
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7267,7 +6903,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A01.11A08
-Encoding: 1114255 -1 249
+Encoding: 1114255 -1 239
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7301,7 +6937,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A01.11A08
-Encoding: 1114256 -1 250
+Encoding: 1114256 -1 240
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7335,7 +6971,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A01.11A08
-Encoding: 1114257 -1 251
+Encoding: 1114257 -1 241
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7373,7 +7009,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A01.11A08
-Encoding: 1114258 -1 252
+Encoding: 1114258 -1 242
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7406,7 +7042,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A01.11A08
-Encoding: 1114259 -1 253
+Encoding: 1114259 -1 243
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7440,7 +7076,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A01.11A08
-Encoding: 1114260 -1 254
+Encoding: 1114260 -1 244
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7475,7 +7111,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A01.11A08
-Encoding: 1114261 -1 255
+Encoding: 1114261 -1 245
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7508,7 +7144,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A01.11A08
-Encoding: 1114262 -1 256
+Encoding: 1114262 -1 246
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7543,7 +7179,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A01.11A08
-Encoding: 1114263 -1 257
+Encoding: 1114263 -1 247
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7576,7 +7212,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A01.11A08
-Encoding: 1114264 -1 258
+Encoding: 1114264 -1 248
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7613,7 +7249,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A01.11A08
-Encoding: 1114265 -1 259
+Encoding: 1114265 -1 249
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7643,7 +7279,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A01.11A08
-Encoding: 1114266 -1 260
+Encoding: 1114266 -1 250
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7675,7 +7311,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A01.11A08
-Encoding: 1114267 -1 261
+Encoding: 1114267 -1 251
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7708,7 +7344,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A01.11A08
-Encoding: 1114268 -1 262
+Encoding: 1114268 -1 252
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7741,7 +7377,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A01.11A08
-Encoding: 1114269 -1 263
+Encoding: 1114269 -1 253
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7776,7 +7412,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A01.11A08
-Encoding: 1114270 -1 264
+Encoding: 1114270 -1 254
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7809,7 +7445,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A01.11A08
-Encoding: 1114271 -1 265
+Encoding: 1114271 -1 255
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7847,7 +7483,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A01.11A08
-Encoding: 1114272 -1 266
+Encoding: 1114272 -1 256
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7885,7 +7521,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A01.11A08
-Encoding: 1114273 -1 267
+Encoding: 1114273 -1 257
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7914,7 +7550,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A01.11A08
-Encoding: 1114274 -1 268
+Encoding: 1114274 -1 258
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7948,7 +7584,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A01.11A08
-Encoding: 1114275 -1 269
+Encoding: 1114275 -1 259
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -7978,7 +7614,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A01.11A08
-Encoding: 1114276 -1 270
+Encoding: 1114276 -1 260
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8011,7 +7647,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A01.11A08
-Encoding: 1114277 -1 271
+Encoding: 1114277 -1 261
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8045,7 +7681,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A01.11A08
-Encoding: 1114278 -1 272
+Encoding: 1114278 -1 262
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8088,7 +7724,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A01.11A08
-Encoding: 1114279 -1 273
+Encoding: 1114279 -1 263
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8132,7 +7768,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A01.11A08
-Encoding: 1114280 -1 274
+Encoding: 1114280 -1 264
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8174,7 +7810,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A01.11A08
-Encoding: 1114281 -1 275
+Encoding: 1114281 -1 265
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8233,7 +7869,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A01.11A08
-Encoding: 1114282 -1 276
+Encoding: 1114282 -1 266
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8271,7 +7907,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A01.11A08
-Encoding: 1114283 -1 277
+Encoding: 1114283 -1 267
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8304,7 +7940,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A01.11A08
-Encoding: 1114284 -1 278
+Encoding: 1114284 -1 268
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8339,7 +7975,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A01.11A08
-Encoding: 1114285 -1 279
+Encoding: 1114285 -1 269
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8372,7 +8008,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A01.11A08
-Encoding: 1114286 -1 280
+Encoding: 1114286 -1 270
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8409,7 +8045,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A01.11A08
-Encoding: 1114287 -1 281
+Encoding: 1114287 -1 271
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8442,7 +8078,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A01.11A08
-Encoding: 1114288 -1 282
+Encoding: 1114288 -1 272
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8489,7 +8125,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A01.11A08
-Encoding: 1114289 -1 283
+Encoding: 1114289 -1 273
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8527,7 +8163,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A01.11A08
-Encoding: 1114290 -1 284
+Encoding: 1114290 -1 274
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8565,7 +8201,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A01.11A08
-Encoding: 1114291 -1 285
+Encoding: 1114291 -1 275
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8596,7 +8232,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A01.11A08
-Encoding: 1114292 -1 286
+Encoding: 1114292 -1 276
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8631,7 +8267,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A01.11A08
-Encoding: 1114293 -1 287
+Encoding: 1114293 -1 277
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8668,7 +8304,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A02.wide
-Encoding: 1114335 -1 288
+Encoding: 1114335 -1 278
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8686,7 +8322,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A03.wide
-Encoding: 1114540 -1 289
+Encoding: 1114540 -1 279
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -8706,7 +8342,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A04
-Encoding: 1114704 -1 290
+Encoding: 1114704 -1 280
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -8738,7 +8374,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A04
-Encoding: 1114705 -1 291
+Encoding: 1114705 -1 281
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8768,7 +8404,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A04
-Encoding: 1114706 -1 292
+Encoding: 1114706 -1 282
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8798,7 +8434,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0D.11A04
-Encoding: 1114707 -1 293
+Encoding: 1114707 -1 283
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8827,7 +8463,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A04
-Encoding: 1114708 -1 294
+Encoding: 1114708 -1 284
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8860,7 +8496,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A04
-Encoding: 1114709 -1 295
+Encoding: 1114709 -1 285
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8888,7 +8524,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A04
-Encoding: 1114710 -1 296
+Encoding: 1114710 -1 286
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8917,7 +8553,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A04
-Encoding: 1114711 -1 297
+Encoding: 1114711 -1 287
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8947,7 +8583,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A04
-Encoding: 1114712 -1 298
+Encoding: 1114712 -1 288
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -8975,7 +8611,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A04
-Encoding: 1114713 -1 299
+Encoding: 1114713 -1 289
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9005,7 +8641,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A04
-Encoding: 1114714 -1 300
+Encoding: 1114714 -1 290
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9033,7 +8669,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A04
-Encoding: 1114715 -1 301
+Encoding: 1114715 -1 291
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9065,7 +8701,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A04
-Encoding: 1114716 -1 302
+Encoding: 1114716 -1 292
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9089,7 +8725,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A04
-Encoding: 1114717 -1 303
+Encoding: 1114717 -1 293
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9115,7 +8751,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A04
-Encoding: 1114718 -1 304
+Encoding: 1114718 -1 294
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9143,7 +8779,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A04
-Encoding: 1114719 -1 305
+Encoding: 1114719 -1 295
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9171,7 +8807,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A04
-Encoding: 1114720 -1 306
+Encoding: 1114720 -1 296
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9202,7 +8838,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A1B.11A04
-Encoding: 1114721 -1 307
+Encoding: 1114721 -1 297
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9230,7 +8866,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A04
-Encoding: 1114722 -1 308
+Encoding: 1114722 -1 298
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9263,7 +8899,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A04
-Encoding: 1114723 -1 309
+Encoding: 1114723 -1 299
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9296,7 +8932,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A04
-Encoding: 1114724 -1 310
+Encoding: 1114724 -1 300
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9320,7 +8956,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A04
-Encoding: 1114725 -1 311
+Encoding: 1114725 -1 301
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9349,7 +8985,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A04
-Encoding: 1114726 -1 312
+Encoding: 1114726 -1 302
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9374,7 +9010,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A04
-Encoding: 1114727 -1 313
+Encoding: 1114727 -1 303
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9401,7 +9037,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A04
-Encoding: 1114728 -1 314
+Encoding: 1114728 -1 304
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9430,7 +9066,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A04
-Encoding: 1114729 -1 315
+Encoding: 1114729 -1 305
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9467,7 +9103,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A04
-Encoding: 1114730 -1 316
+Encoding: 1114730 -1 306
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9505,7 +9141,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A04
-Encoding: 1114731 -1 317
+Encoding: 1114731 -1 307
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9540,7 +9176,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A04
-Encoding: 1114732 -1 318
+Encoding: 1114732 -1 308
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9592,7 +9228,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A04
-Encoding: 1114733 -1 319
+Encoding: 1114733 -1 309
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9625,7 +9261,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A04
-Encoding: 1114734 -1 320
+Encoding: 1114734 -1 310
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9653,7 +9289,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A04
-Encoding: 1114735 -1 321
+Encoding: 1114735 -1 311
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9683,7 +9319,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A04
-Encoding: 1114736 -1 322
+Encoding: 1114736 -1 312
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9711,7 +9347,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A04
-Encoding: 1114737 -1 323
+Encoding: 1114737 -1 313
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9743,7 +9379,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A04
-Encoding: 1114738 -1 324
+Encoding: 1114738 -1 314
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9771,7 +9407,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A04
-Encoding: 1114739 -1 325
+Encoding: 1114739 -1 315
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9813,7 +9449,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A04
-Encoding: 1114740 -1 326
+Encoding: 1114740 -1 316
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9846,7 +9482,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A04
-Encoding: 1114741 -1 327
+Encoding: 1114741 -1 317
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9879,7 +9515,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A04
-Encoding: 1114742 -1 328
+Encoding: 1114742 -1 318
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9905,7 +9541,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A04
-Encoding: 1114743 -1 329
+Encoding: 1114743 -1 319
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9935,7 +9571,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A04
-Encoding: 1114744 -1 330
+Encoding: 1114744 -1 320
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -9967,7 +9603,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A04.11A04
-Encoding: 1114745 -1 331
+Encoding: 1114745 -1 321
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -10003,7 +9639,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A04.11A04
-Encoding: 1114746 -1 332
+Encoding: 1114746 -1 322
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10037,7 +9673,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A04.11A04
-Encoding: 1114747 -1 333
+Encoding: 1114747 -1 323
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10070,7 +9706,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A04.11A04
-Encoding: 1114748 -1 334
+Encoding: 1114748 -1 324
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10103,7 +9739,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A04.11A04
-Encoding: 1114749 -1 335
+Encoding: 1114749 -1 325
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10140,7 +9776,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A04.11A04
-Encoding: 1114750 -1 336
+Encoding: 1114750 -1 326
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10172,7 +9808,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A04.11A04
-Encoding: 1114751 -1 337
+Encoding: 1114751 -1 327
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10205,7 +9841,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A04.11A04
-Encoding: 1114752 -1 338
+Encoding: 1114752 -1 328
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10239,7 +9875,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A04.11A04
-Encoding: 1114753 -1 339
+Encoding: 1114753 -1 329
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10271,7 +9907,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A04.11A04
-Encoding: 1114754 -1 340
+Encoding: 1114754 -1 330
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10305,7 +9941,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A04.11A04
-Encoding: 1114755 -1 341
+Encoding: 1114755 -1 331
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10337,7 +9973,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A04.11A04
-Encoding: 1114756 -1 342
+Encoding: 1114756 -1 332
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10373,7 +10009,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A04.11A04
-Encoding: 1114757 -1 343
+Encoding: 1114757 -1 333
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10401,7 +10037,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A04.11A04
-Encoding: 1114758 -1 344
+Encoding: 1114758 -1 334
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10431,7 +10067,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A04.11A04
-Encoding: 1114759 -1 345
+Encoding: 1114759 -1 335
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10463,7 +10099,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A04.11A04
-Encoding: 1114760 -1 346
+Encoding: 1114760 -1 336
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10495,7 +10131,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A04.11A04
-Encoding: 1114761 -1 347
+Encoding: 1114761 -1 337
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10529,7 +10165,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A04.11A04
-Encoding: 1114762 -1 348
+Encoding: 1114762 -1 338
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10561,7 +10197,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A04.11A04
-Encoding: 1114763 -1 349
+Encoding: 1114763 -1 339
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10598,7 +10234,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A04.11A04
-Encoding: 1114764 -1 350
+Encoding: 1114764 -1 340
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10635,7 +10271,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A04.11A04
-Encoding: 1114765 -1 351
+Encoding: 1114765 -1 341
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10663,7 +10299,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A04.11A04
-Encoding: 1114766 -1 352
+Encoding: 1114766 -1 342
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10696,7 +10332,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A04.11A04
-Encoding: 1114767 -1 353
+Encoding: 1114767 -1 343
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10725,7 +10361,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A04.11A04
-Encoding: 1114768 -1 354
+Encoding: 1114768 -1 344
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10756,7 +10392,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A04.11A04
-Encoding: 1114769 -1 355
+Encoding: 1114769 -1 345
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10789,7 +10425,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A04.11A04
-Encoding: 1114770 -1 356
+Encoding: 1114770 -1 346
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10830,7 +10466,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A04.11A04
-Encoding: 1114771 -1 357
+Encoding: 1114771 -1 347
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10872,7 +10508,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A04.11A04
-Encoding: 1114772 -1 358
+Encoding: 1114772 -1 348
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10911,7 +10547,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A04.11A04
-Encoding: 1114773 -1 359
+Encoding: 1114773 -1 349
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -10967,7 +10603,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A04.11A04
-Encoding: 1114774 -1 360
+Encoding: 1114774 -1 350
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11004,7 +10640,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A04.11A04
-Encoding: 1114775 -1 361
+Encoding: 1114775 -1 351
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11036,7 +10672,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A04.11A04
-Encoding: 1114776 -1 362
+Encoding: 1114776 -1 352
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11070,7 +10706,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A04.11A04
-Encoding: 1114777 -1 363
+Encoding: 1114777 -1 353
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11102,7 +10738,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A04.11A04
-Encoding: 1114778 -1 364
+Encoding: 1114778 -1 354
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11138,7 +10774,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A04.11A04
-Encoding: 1114779 -1 365
+Encoding: 1114779 -1 355
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11170,7 +10806,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A04.11A04
-Encoding: 1114780 -1 366
+Encoding: 1114780 -1 356
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11216,7 +10852,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A04.11A04
-Encoding: 1114781 -1 367
+Encoding: 1114781 -1 357
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11253,7 +10889,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A04.11A04
-Encoding: 1114782 -1 368
+Encoding: 1114782 -1 358
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11290,7 +10926,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A04.11A04
-Encoding: 1114783 -1 369
+Encoding: 1114783 -1 359
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11320,7 +10956,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A04.11A04
-Encoding: 1114784 -1 370
+Encoding: 1114784 -1 360
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11355,7 +10991,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A32.11A04.11A04
-Encoding: 1114785 -1 371
+Encoding: 1114785 -1 361
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11391,7 +11027,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A04.11A07
-Encoding: 1114786 -1 372
+Encoding: 1114786 -1 362
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -11430,7 +11066,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0B.11A04.11A07
-Encoding: 1114787 -1 373
+Encoding: 1114787 -1 363
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11466,7 +11102,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A04.11A07
-Encoding: 1114788 -1 374
+Encoding: 1114788 -1 364
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11501,7 +11137,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A04.11A07
-Encoding: 1114789 -1 375
+Encoding: 1114789 -1 365
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11536,7 +11172,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A04.11A07
-Encoding: 1114790 -1 376
+Encoding: 1114790 -1 366
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11575,7 +11211,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A04.11A07
-Encoding: 1114791 -1 377
+Encoding: 1114791 -1 367
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11609,7 +11245,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A04.11A07
-Encoding: 1114792 -1 378
+Encoding: 1114792 -1 368
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11644,7 +11280,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A04.11A07
-Encoding: 1114793 -1 379
+Encoding: 1114793 -1 369
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11680,7 +11316,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A04.11A07
-Encoding: 1114794 -1 380
+Encoding: 1114794 -1 370
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11714,7 +11350,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A04.11A07
-Encoding: 1114795 -1 381
+Encoding: 1114795 -1 371
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11750,7 +11386,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A04.11A07
-Encoding: 1114796 -1 382
+Encoding: 1114796 -1 372
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11784,7 +11420,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A04.11A07
-Encoding: 1114797 -1 383
+Encoding: 1114797 -1 373
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11822,7 +11458,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A04.11A07
-Encoding: 1114798 -1 384
+Encoding: 1114798 -1 374
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11852,7 +11488,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A04.11A07
-Encoding: 1114799 -1 385
+Encoding: 1114799 -1 375
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11884,7 +11520,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A04.11A07
-Encoding: 1114800 -1 386
+Encoding: 1114800 -1 376
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11918,7 +11554,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A04.11A07
-Encoding: 1114801 -1 387
+Encoding: 1114801 -1 377
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11952,7 +11588,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A04.11A07
-Encoding: 1114802 -1 388
+Encoding: 1114802 -1 378
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -11988,7 +11624,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A04.11A07
-Encoding: 1114803 -1 389
+Encoding: 1114803 -1 379
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12022,7 +11658,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A04.11A07
-Encoding: 1114804 -1 390
+Encoding: 1114804 -1 380
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12061,7 +11697,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A04.11A07
-Encoding: 1114805 -1 391
+Encoding: 1114805 -1 381
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12100,7 +11736,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A04.11A07
-Encoding: 1114806 -1 392
+Encoding: 1114806 -1 382
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12130,7 +11766,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A04.11A07
-Encoding: 1114807 -1 393
+Encoding: 1114807 -1 383
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12165,7 +11801,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A04.11A07
-Encoding: 1114808 -1 394
+Encoding: 1114808 -1 384
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12196,7 +11832,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A04.11A07
-Encoding: 1114809 -1 395
+Encoding: 1114809 -1 385
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12229,7 +11865,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A04.11A07
-Encoding: 1114810 -1 396
+Encoding: 1114810 -1 386
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12264,7 +11900,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A04.11A07
-Encoding: 1114811 -1 397
+Encoding: 1114811 -1 387
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12307,7 +11943,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A04.11A07
-Encoding: 1114812 -1 398
+Encoding: 1114812 -1 388
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12351,7 +11987,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A04.11A07
-Encoding: 1114813 -1 399
+Encoding: 1114813 -1 389
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12393,7 +12029,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A04.11A07
-Encoding: 1114814 -1 400
+Encoding: 1114814 -1 390
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12452,7 +12088,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A04.11A07
-Encoding: 1114815 -1 401
+Encoding: 1114815 -1 391
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12491,7 +12127,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A04.11A07
-Encoding: 1114816 -1 402
+Encoding: 1114816 -1 392
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12525,7 +12161,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A04.11A07
-Encoding: 1114817 -1 403
+Encoding: 1114817 -1 393
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12561,7 +12197,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A04.11A07
-Encoding: 1114818 -1 404
+Encoding: 1114818 -1 394
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12595,7 +12231,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A04.11A07
-Encoding: 1114819 -1 405
+Encoding: 1114819 -1 395
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12633,7 +12269,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A04.11A07
-Encoding: 1114820 -1 406
+Encoding: 1114820 -1 396
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12667,7 +12303,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A04.11A07
-Encoding: 1114821 -1 407
+Encoding: 1114821 -1 397
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12715,7 +12351,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A04.11A07
-Encoding: 1114822 -1 408
+Encoding: 1114822 -1 398
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12754,7 +12390,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A04.11A07
-Encoding: 1114823 -1 409
+Encoding: 1114823 -1 399
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12793,7 +12429,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A04.11A07
-Encoding: 1114824 -1 410
+Encoding: 1114824 -1 400
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12825,7 +12461,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A04.11A07
-Encoding: 1114825 -1 411
+Encoding: 1114825 -1 401
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12861,7 +12497,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A04.11A07
-Encoding: 1114826 -1 412
+Encoding: 1114826 -1 402
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12899,7 +12535,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A05
-Encoding: 1114950 -1 413
+Encoding: 1114950 -1 403
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -12935,7 +12571,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A05
-Encoding: 1114951 -1 414
+Encoding: 1114951 -1 404
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -12969,7 +12605,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A05
-Encoding: 1114952 -1 415
+Encoding: 1114952 -1 405
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13002,7 +12638,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A05
-Encoding: 1114953 -1 416
+Encoding: 1114953 -1 406
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13035,7 +12671,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A05
-Encoding: 1114954 -1 417
+Encoding: 1114954 -1 407
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13072,7 +12708,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A05
-Encoding: 1114955 -1 418
+Encoding: 1114955 -1 408
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13104,7 +12740,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A05
-Encoding: 1114956 -1 419
+Encoding: 1114956 -1 409
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13137,7 +12773,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A05
-Encoding: 1114957 -1 420
+Encoding: 1114957 -1 410
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13171,7 +12807,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A05
-Encoding: 1114958 -1 421
+Encoding: 1114958 -1 411
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13203,7 +12839,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A05
-Encoding: 1114959 -1 422
+Encoding: 1114959 -1 412
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13237,7 +12873,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A05
-Encoding: 1114960 -1 423
+Encoding: 1114960 -1 413
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13270,7 +12906,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A15.11A05
-Encoding: 1114961 -1 424
+Encoding: 1114961 -1 414
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13304,7 +12940,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A05
-Encoding: 1114962 -1 425
+Encoding: 1114962 -1 415
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13332,7 +12968,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A05
-Encoding: 1114963 -1 426
+Encoding: 1114963 -1 416
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13362,7 +12998,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A05
-Encoding: 1114964 -1 427
+Encoding: 1114964 -1 417
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13394,7 +13030,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A05
-Encoding: 1114965 -1 428
+Encoding: 1114965 -1 418
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13426,7 +13062,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A05
-Encoding: 1114966 -1 429
+Encoding: 1114966 -1 419
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13460,7 +13096,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A05
-Encoding: 1114967 -1 430
+Encoding: 1114967 -1 420
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13492,7 +13128,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A05
-Encoding: 1114968 -1 431
+Encoding: 1114968 -1 421
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13529,7 +13165,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A05
-Encoding: 1114969 -1 432
+Encoding: 1114969 -1 422
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13566,7 +13202,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A05
-Encoding: 1114970 -1 433
+Encoding: 1114970 -1 423
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13595,7 +13231,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A05
-Encoding: 1114971 -1 434
+Encoding: 1114971 -1 424
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13628,7 +13264,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A05
-Encoding: 1114972 -1 435
+Encoding: 1114972 -1 425
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13657,7 +13293,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A05
-Encoding: 1114973 -1 436
+Encoding: 1114973 -1 426
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13688,7 +13324,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A05
-Encoding: 1114974 -1 437
+Encoding: 1114974 -1 427
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13721,7 +13357,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A05
-Encoding: 1114975 -1 438
+Encoding: 1114975 -1 428
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13761,7 +13397,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A05
-Encoding: 1114976 -1 439
+Encoding: 1114976 -1 429
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13802,7 +13438,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A05
-Encoding: 1114977 -1 440
+Encoding: 1114977 -1 430
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13840,7 +13476,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A05
-Encoding: 1114978 -1 441
+Encoding: 1114978 -1 431
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13895,7 +13531,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A05
-Encoding: 1114979 -1 442
+Encoding: 1114979 -1 432
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13932,7 +13568,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A05
-Encoding: 1114980 -1 443
+Encoding: 1114980 -1 433
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13964,7 +13600,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A05
-Encoding: 1114981 -1 444
+Encoding: 1114981 -1 434
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -13998,7 +13634,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A05
-Encoding: 1114982 -1 445
+Encoding: 1114982 -1 435
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14030,7 +13666,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A05
-Encoding: 1114983 -1 446
+Encoding: 1114983 -1 436
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14066,7 +13702,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A05
-Encoding: 1114984 -1 447
+Encoding: 1114984 -1 437
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14098,7 +13734,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A05
-Encoding: 1114985 -1 448
+Encoding: 1114985 -1 438
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14144,7 +13780,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A05
-Encoding: 1114986 -1 449
+Encoding: 1114986 -1 439
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14181,7 +13817,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A05
-Encoding: 1114987 -1 450
+Encoding: 1114987 -1 440
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14218,7 +13854,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A05
-Encoding: 1114988 -1 451
+Encoding: 1114988 -1 441
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14249,7 +13885,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A05
-Encoding: 1114989 -1 452
+Encoding: 1114989 -1 442
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14283,7 +13919,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A05
-Encoding: 1114990 -1 453
+Encoding: 1114990 -1 443
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14319,7 +13955,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A06
-Encoding: 1115032 -1 454
+Encoding: 1115032 -1 444
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -14359,7 +13995,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0B.11A06
-Encoding: 1115033 -1 455
+Encoding: 1115033 -1 445
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14396,7 +14032,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A06
-Encoding: 1115034 -1 456
+Encoding: 1115034 -1 446
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14432,7 +14068,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A06
-Encoding: 1115035 -1 457
+Encoding: 1115035 -1 447
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14468,7 +14104,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A06
-Encoding: 1115036 -1 458
+Encoding: 1115036 -1 448
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14508,7 +14144,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A06
-Encoding: 1115037 -1 459
+Encoding: 1115037 -1 449
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14543,7 +14179,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A06
-Encoding: 1115038 -1 460
+Encoding: 1115038 -1 450
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14579,7 +14215,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A06
-Encoding: 1115039 -1 461
+Encoding: 1115039 -1 451
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14616,7 +14252,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A06
-Encoding: 1115040 -1 462
+Encoding: 1115040 -1 452
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14651,7 +14287,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A06
-Encoding: 1115041 -1 463
+Encoding: 1115041 -1 453
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14688,7 +14324,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A06
-Encoding: 1115042 -1 464
+Encoding: 1115042 -1 454
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14723,7 +14359,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A06
-Encoding: 1115043 -1 465
+Encoding: 1115043 -1 455
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14760,7 +14396,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A06
-Encoding: 1115044 -1 466
+Encoding: 1115044 -1 456
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14791,7 +14427,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A06
-Encoding: 1115045 -1 467
+Encoding: 1115045 -1 457
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14824,7 +14460,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A06
-Encoding: 1115046 -1 468
+Encoding: 1115046 -1 458
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14859,7 +14495,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A06
-Encoding: 1115047 -1 469
+Encoding: 1115047 -1 459
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14894,7 +14530,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A06
-Encoding: 1115048 -1 470
+Encoding: 1115048 -1 460
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14931,7 +14567,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A06
-Encoding: 1115049 -1 471
+Encoding: 1115049 -1 461
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -14966,7 +14602,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A06
-Encoding: 1115050 -1 472
+Encoding: 1115050 -1 462
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15006,7 +14642,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A06
-Encoding: 1115051 -1 473
+Encoding: 1115051 -1 463
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15046,7 +14682,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A06
-Encoding: 1115052 -1 474
+Encoding: 1115052 -1 464
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15077,7 +14713,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A06
-Encoding: 1115053 -1 475
+Encoding: 1115053 -1 465
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15113,7 +14749,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A06
-Encoding: 1115054 -1 476
+Encoding: 1115054 -1 466
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15145,7 +14781,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A06
-Encoding: 1115055 -1 477
+Encoding: 1115055 -1 467
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15179,7 +14815,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A06
-Encoding: 1115056 -1 478
+Encoding: 1115056 -1 468
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15215,7 +14851,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A06
-Encoding: 1115057 -1 479
+Encoding: 1115057 -1 469
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15258,7 +14894,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A06
-Encoding: 1115058 -1 480
+Encoding: 1115058 -1 470
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15302,7 +14938,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A06
-Encoding: 1115059 -1 481
+Encoding: 1115059 -1 471
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15343,7 +14979,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A06
-Encoding: 1115060 -1 482
+Encoding: 1115060 -1 472
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15401,7 +15037,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A06
-Encoding: 1115061 -1 483
+Encoding: 1115061 -1 473
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15441,7 +15077,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A06
-Encoding: 1115062 -1 484
+Encoding: 1115062 -1 474
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15476,7 +15112,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A06
-Encoding: 1115063 -1 485
+Encoding: 1115063 -1 475
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15513,7 +15149,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A06
-Encoding: 1115064 -1 486
+Encoding: 1115064 -1 476
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15548,7 +15184,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A06
-Encoding: 1115065 -1 487
+Encoding: 1115065 -1 477
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15587,7 +15223,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A06
-Encoding: 1115066 -1 488
+Encoding: 1115066 -1 478
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15622,7 +15258,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A06
-Encoding: 1115067 -1 489
+Encoding: 1115067 -1 479
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15671,7 +15307,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A06
-Encoding: 1115068 -1 490
+Encoding: 1115068 -1 480
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15711,7 +15347,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A06
-Encoding: 1115069 -1 491
+Encoding: 1115069 -1 481
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15751,7 +15387,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A06
-Encoding: 1115070 -1 492
+Encoding: 1115070 -1 482
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15784,7 +15420,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A06
-Encoding: 1115071 -1 493
+Encoding: 1115071 -1 483
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15821,7 +15457,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A06
-Encoding: 1115072 -1 494
+Encoding: 1115072 -1 484
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15860,7 +15496,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A06.11A06
-Encoding: 1115073 -1 495
+Encoding: 1115073 -1 485
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -15910,7 +15546,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A06.11A06
-Encoding: 1115074 -1 496
+Encoding: 1115074 -1 486
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -15958,7 +15594,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A06.11A06
-Encoding: 1115075 -1 497
+Encoding: 1115075 -1 487
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16005,7 +15641,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A06.11A06
-Encoding: 1115076 -1 498
+Encoding: 1115076 -1 488
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16052,7 +15688,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A06.11A06
-Encoding: 1115077 -1 499
+Encoding: 1115077 -1 489
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16103,7 +15739,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A06.11A06
-Encoding: 1115078 -1 500
+Encoding: 1115078 -1 490
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16149,7 +15785,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A06.11A06
-Encoding: 1115079 -1 501
+Encoding: 1115079 -1 491
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16196,7 +15832,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A06.11A06
-Encoding: 1115080 -1 502
+Encoding: 1115080 -1 492
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16244,7 +15880,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A06.11A06
-Encoding: 1115081 -1 503
+Encoding: 1115081 -1 493
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16290,7 +15926,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A06.11A06
-Encoding: 1115082 -1 504
+Encoding: 1115082 -1 494
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16338,7 +15974,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A06.11A06
-Encoding: 1115083 -1 505
+Encoding: 1115083 -1 495
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16384,7 +16020,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A06.11A06
-Encoding: 1115084 -1 506
+Encoding: 1115084 -1 496
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16432,7 +16068,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A06.11A06
-Encoding: 1115085 -1 507
+Encoding: 1115085 -1 497
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16474,7 +16110,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A06.11A06
-Encoding: 1115086 -1 508
+Encoding: 1115086 -1 498
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16518,7 +16154,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A06.11A06
-Encoding: 1115087 -1 509
+Encoding: 1115087 -1 499
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16564,7 +16200,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A06.11A06
-Encoding: 1115088 -1 510
+Encoding: 1115088 -1 500
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16610,7 +16246,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A06.11A06
-Encoding: 1115089 -1 511
+Encoding: 1115089 -1 501
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16658,7 +16294,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A06.11A06
-Encoding: 1115090 -1 512
+Encoding: 1115090 -1 502
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16704,7 +16340,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A06.11A06
-Encoding: 1115091 -1 513
+Encoding: 1115091 -1 503
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16755,7 +16391,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A06.11A06
-Encoding: 1115092 -1 514
+Encoding: 1115092 -1 504
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16806,7 +16442,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A06.11A06
-Encoding: 1115093 -1 515
+Encoding: 1115093 -1 505
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16848,7 +16484,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A06.11A06
-Encoding: 1115094 -1 516
+Encoding: 1115094 -1 506
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16895,7 +16531,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A06.11A06
-Encoding: 1115095 -1 517
+Encoding: 1115095 -1 507
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16938,7 +16574,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A06.11A06
-Encoding: 1115096 -1 518
+Encoding: 1115096 -1 508
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -16983,7 +16619,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A06.11A06
-Encoding: 1115097 -1 519
+Encoding: 1115097 -1 509
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17030,7 +16666,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A06.11A06
-Encoding: 1115098 -1 520
+Encoding: 1115098 -1 510
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17084,7 +16720,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A06.11A06
-Encoding: 1115099 -1 521
+Encoding: 1115099 -1 511
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17139,7 +16775,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A06.11A06
-Encoding: 1115100 -1 522
+Encoding: 1115100 -1 512
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17191,7 +16827,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A06.11A06
-Encoding: 1115101 -1 523
+Encoding: 1115101 -1 513
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17260,7 +16896,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A06.11A06
-Encoding: 1115102 -1 524
+Encoding: 1115102 -1 514
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17311,7 +16947,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A06.11A06
-Encoding: 1115103 -1 525
+Encoding: 1115103 -1 515
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17357,7 +16993,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A06.11A06
-Encoding: 1115104 -1 526
+Encoding: 1115104 -1 516
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17405,7 +17041,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A06.11A06
-Encoding: 1115105 -1 527
+Encoding: 1115105 -1 517
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17451,7 +17087,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A06.11A06
-Encoding: 1115106 -1 528
+Encoding: 1115106 -1 518
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17501,7 +17137,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A06.11A06
-Encoding: 1115107 -1 529
+Encoding: 1115107 -1 519
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17547,7 +17183,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A06.11A06
-Encoding: 1115108 -1 530
+Encoding: 1115108 -1 520
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17607,7 +17243,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A06.11A06
-Encoding: 1115109 -1 531
+Encoding: 1115109 -1 521
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17658,7 +17294,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A06.11A06
-Encoding: 1115110 -1 532
+Encoding: 1115110 -1 522
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17709,7 +17345,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A06.11A06
-Encoding: 1115111 -1 533
+Encoding: 1115111 -1 523
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17753,7 +17389,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A06.11A06
-Encoding: 1115112 -1 534
+Encoding: 1115112 -1 524
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17801,7 +17437,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A06.11A06
-Encoding: 1115113 -1 535
+Encoding: 1115113 -1 525
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17851,7 +17487,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A06.11A07
-Encoding: 1115114 -1 536
+Encoding: 1115114 -1 526
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -17894,7 +17530,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A06.11A07
-Encoding: 1115115 -1 537
+Encoding: 1115115 -1 527
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17935,7 +17571,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A06.11A07
-Encoding: 1115116 -1 538
+Encoding: 1115116 -1 528
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -17975,7 +17611,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A06.11A07
-Encoding: 1115117 -1 539
+Encoding: 1115117 -1 529
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18015,7 +17651,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A06.11A07
-Encoding: 1115118 -1 540
+Encoding: 1115118 -1 530
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18059,7 +17695,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A06.11A07
-Encoding: 1115119 -1 541
+Encoding: 1115119 -1 531
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18098,7 +17734,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A06.11A07
-Encoding: 1115120 -1 542
+Encoding: 1115120 -1 532
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18138,7 +17774,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A06.11A07
-Encoding: 1115121 -1 543
+Encoding: 1115121 -1 533
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18179,7 +17815,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A06.11A07
-Encoding: 1115122 -1 544
+Encoding: 1115122 -1 534
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18218,7 +17854,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A06.11A07
-Encoding: 1115123 -1 545
+Encoding: 1115123 -1 535
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18259,7 +17895,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A06.11A07
-Encoding: 1115124 -1 546
+Encoding: 1115124 -1 536
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18298,7 +17934,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A06.11A07
-Encoding: 1115125 -1 547
+Encoding: 1115125 -1 537
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18341,7 +17977,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A06.11A07
-Encoding: 1115126 -1 548
+Encoding: 1115126 -1 538
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18376,7 +18012,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A06.11A07
-Encoding: 1115127 -1 549
+Encoding: 1115127 -1 539
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18413,7 +18049,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A06.11A07
-Encoding: 1115128 -1 550
+Encoding: 1115128 -1 540
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18452,7 +18088,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A06.11A07
-Encoding: 1115129 -1 551
+Encoding: 1115129 -1 541
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18491,7 +18127,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A06.11A07
-Encoding: 1115130 -1 552
+Encoding: 1115130 -1 542
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18532,7 +18168,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A06.11A07
-Encoding: 1115131 -1 553
+Encoding: 1115131 -1 543
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18571,7 +18207,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A06.11A07
-Encoding: 1115132 -1 554
+Encoding: 1115132 -1 544
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18615,7 +18251,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A06.11A07
-Encoding: 1115133 -1 555
+Encoding: 1115133 -1 545
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18659,7 +18295,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A06.11A07
-Encoding: 1115134 -1 556
+Encoding: 1115134 -1 546
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18694,7 +18330,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A06.11A07
-Encoding: 1115135 -1 557
+Encoding: 1115135 -1 547
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18734,7 +18370,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A06.11A07
-Encoding: 1115136 -1 558
+Encoding: 1115136 -1 548
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18770,7 +18406,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A06.11A07
-Encoding: 1115137 -1 559
+Encoding: 1115137 -1 549
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18808,7 +18444,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A06.11A07
-Encoding: 1115138 -1 560
+Encoding: 1115138 -1 550
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18848,7 +18484,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A06.11A07
-Encoding: 1115139 -1 561
+Encoding: 1115139 -1 551
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18896,7 +18532,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A06.11A07
-Encoding: 1115140 -1 562
+Encoding: 1115140 -1 552
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18945,7 +18581,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A06.11A07
-Encoding: 1115141 -1 563
+Encoding: 1115141 -1 553
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -18992,7 +18628,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A06.11A07
-Encoding: 1115142 -1 564
+Encoding: 1115142 -1 554
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19056,7 +18692,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A06.11A07
-Encoding: 1115143 -1 565
+Encoding: 1115143 -1 555
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19100,7 +18736,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A06.11A07
-Encoding: 1115144 -1 566
+Encoding: 1115144 -1 556
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19139,7 +18775,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A06.11A07
-Encoding: 1115145 -1 567
+Encoding: 1115145 -1 557
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19180,7 +18816,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A06.11A07
-Encoding: 1115146 -1 568
+Encoding: 1115146 -1 558
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19219,7 +18855,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A06.11A07
-Encoding: 1115147 -1 569
+Encoding: 1115147 -1 559
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19262,7 +18898,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A06.11A07
-Encoding: 1115148 -1 570
+Encoding: 1115148 -1 560
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19301,7 +18937,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A06.11A07
-Encoding: 1115149 -1 571
+Encoding: 1115149 -1 561
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19354,7 +18990,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A06.11A07
-Encoding: 1115150 -1 572
+Encoding: 1115150 -1 562
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19398,7 +19034,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A06.11A07
-Encoding: 1115151 -1 573
+Encoding: 1115151 -1 563
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19442,7 +19078,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A06.11A07
-Encoding: 1115152 -1 574
+Encoding: 1115152 -1 564
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19479,7 +19115,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A06.11A07
-Encoding: 1115153 -1 575
+Encoding: 1115153 -1 565
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19520,7 +19156,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A06.11A07
-Encoding: 1115154 -1 576
+Encoding: 1115154 -1 566
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19563,7 +19199,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A06.11A08
-Encoding: 1115155 -1 577
+Encoding: 1115155 -1 567
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -19606,7 +19242,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A06.11A08
-Encoding: 1115156 -1 578
+Encoding: 1115156 -1 568
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19647,7 +19283,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A06.11A08
-Encoding: 1115157 -1 579
+Encoding: 1115157 -1 569
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19687,7 +19323,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A06.11A08
-Encoding: 1115158 -1 580
+Encoding: 1115158 -1 570
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19727,7 +19363,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A06.11A08
-Encoding: 1115159 -1 581
+Encoding: 1115159 -1 571
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19771,7 +19407,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A06.11A08
-Encoding: 1115160 -1 582
+Encoding: 1115160 -1 572
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19810,7 +19446,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A06.11A08
-Encoding: 1115161 -1 583
+Encoding: 1115161 -1 573
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19850,7 +19486,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A06.11A08
-Encoding: 1115162 -1 584
+Encoding: 1115162 -1 574
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19891,7 +19527,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A06.11A08
-Encoding: 1115163 -1 585
+Encoding: 1115163 -1 575
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19930,7 +19566,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A06.11A08
-Encoding: 1115164 -1 586
+Encoding: 1115164 -1 576
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -19971,7 +19607,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A06.11A08
-Encoding: 1115165 -1 587
+Encoding: 1115165 -1 577
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20010,7 +19646,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A06.11A08
-Encoding: 1115166 -1 588
+Encoding: 1115166 -1 578
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20053,7 +19689,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A06.11A08
-Encoding: 1115167 -1 589
+Encoding: 1115167 -1 579
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20089,7 +19725,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A06.11A08
-Encoding: 1115168 -1 590
+Encoding: 1115168 -1 580
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20127,7 +19763,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A06.11A08
-Encoding: 1115169 -1 591
+Encoding: 1115169 -1 581
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20166,7 +19802,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A06.11A08
-Encoding: 1115170 -1 592
+Encoding: 1115170 -1 582
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20205,7 +19841,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A06.11A08
-Encoding: 1115171 -1 593
+Encoding: 1115171 -1 583
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20246,7 +19882,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A06.11A08
-Encoding: 1115172 -1 594
+Encoding: 1115172 -1 584
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20285,7 +19921,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A06.11A08
-Encoding: 1115173 -1 595
+Encoding: 1115173 -1 585
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20329,7 +19965,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A06.11A08
-Encoding: 1115174 -1 596
+Encoding: 1115174 -1 586
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20373,7 +20009,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A06.11A08
-Encoding: 1115175 -1 597
+Encoding: 1115175 -1 587
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20408,7 +20044,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A06.11A08
-Encoding: 1115176 -1 598
+Encoding: 1115176 -1 588
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20448,7 +20084,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A06.11A08
-Encoding: 1115177 -1 599
+Encoding: 1115177 -1 589
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20484,7 +20120,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A06.11A08
-Encoding: 1115178 -1 600
+Encoding: 1115178 -1 590
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20523,7 +20159,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A06.11A08
-Encoding: 1115179 -1 601
+Encoding: 1115179 -1 591
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20563,7 +20199,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A06.11A08
-Encoding: 1115180 -1 602
+Encoding: 1115180 -1 592
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20610,7 +20246,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A06.11A08
-Encoding: 1115181 -1 603
+Encoding: 1115181 -1 593
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20658,7 +20294,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A06.11A08
-Encoding: 1115182 -1 604
+Encoding: 1115182 -1 594
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20703,7 +20339,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A06.11A08
-Encoding: 1115183 -1 605
+Encoding: 1115183 -1 595
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20765,7 +20401,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A06.11A08
-Encoding: 1115184 -1 606
+Encoding: 1115184 -1 596
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20809,7 +20445,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A06.11A08
-Encoding: 1115185 -1 607
+Encoding: 1115185 -1 597
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20848,7 +20484,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A06.11A08
-Encoding: 1115186 -1 608
+Encoding: 1115186 -1 598
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20889,7 +20525,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A06.11A08
-Encoding: 1115187 -1 609
+Encoding: 1115187 -1 599
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20928,7 +20564,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A06.11A08
-Encoding: 1115188 -1 610
+Encoding: 1115188 -1 600
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -20971,7 +20607,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A06.11A08
-Encoding: 1115189 -1 611
+Encoding: 1115189 -1 601
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21010,7 +20646,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A06.11A08
-Encoding: 1115190 -1 612
+Encoding: 1115190 -1 602
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21063,7 +20699,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A06.11A08
-Encoding: 1115191 -1 613
+Encoding: 1115191 -1 603
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21107,7 +20743,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A06.11A08
-Encoding: 1115192 -1 614
+Encoding: 1115192 -1 604
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21151,7 +20787,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A06.11A08
-Encoding: 1115193 -1 615
+Encoding: 1115193 -1 605
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21188,7 +20824,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A06.11A08
-Encoding: 1115194 -1 616
+Encoding: 1115194 -1 606
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21229,7 +20865,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A06.11A08
-Encoding: 1115195 -1 617
+Encoding: 1115195 -1 607
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21272,7 +20908,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A07
-Encoding: 1115319 -1 618
+Encoding: 1115319 -1 608
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -21304,7 +20940,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A07
-Encoding: 1115320 -1 619
+Encoding: 1115320 -1 609
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21334,7 +20970,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A07
-Encoding: 1115321 -1 620
+Encoding: 1115321 -1 610
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21363,7 +20999,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A07
-Encoding: 1115322 -1 621
+Encoding: 1115322 -1 611
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21392,7 +21028,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A07
-Encoding: 1115323 -1 622
+Encoding: 1115323 -1 612
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21425,7 +21061,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A07
-Encoding: 1115324 -1 623
+Encoding: 1115324 -1 613
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21453,7 +21089,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A07
-Encoding: 1115325 -1 624
+Encoding: 1115325 -1 614
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21482,7 +21118,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A07
-Encoding: 1115326 -1 625
+Encoding: 1115326 -1 615
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21512,7 +21148,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A07
-Encoding: 1115327 -1 626
+Encoding: 1115327 -1 616
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21540,7 +21176,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A07
-Encoding: 1115328 -1 627
+Encoding: 1115328 -1 617
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21570,7 +21206,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A07
-Encoding: 1115329 -1 628
+Encoding: 1115329 -1 618
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21598,7 +21234,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A07
-Encoding: 1115330 -1 629
+Encoding: 1115330 -1 619
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21630,7 +21266,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A07
-Encoding: 1115331 -1 630
+Encoding: 1115331 -1 620
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21654,7 +21290,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A07
-Encoding: 1115332 -1 631
+Encoding: 1115332 -1 621
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21680,7 +21316,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A07
-Encoding: 1115333 -1 632
+Encoding: 1115333 -1 622
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21708,7 +21344,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A07
-Encoding: 1115334 -1 633
+Encoding: 1115334 -1 623
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21736,7 +21372,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A07
-Encoding: 1115335 -1 634
+Encoding: 1115335 -1 624
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21766,7 +21402,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A07
-Encoding: 1115336 -1 635
+Encoding: 1115336 -1 625
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21794,7 +21430,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A07
-Encoding: 1115337 -1 636
+Encoding: 1115337 -1 626
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21827,7 +21463,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A07
-Encoding: 1115338 -1 637
+Encoding: 1115338 -1 627
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21860,7 +21496,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A07
-Encoding: 1115339 -1 638
+Encoding: 1115339 -1 628
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21884,7 +21520,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A07
-Encoding: 1115340 -1 639
+Encoding: 1115340 -1 629
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21913,7 +21549,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A07
-Encoding: 1115341 -1 640
+Encoding: 1115341 -1 630
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21938,7 +21574,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A07
-Encoding: 1115342 -1 641
+Encoding: 1115342 -1 631
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21965,7 +21601,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A07
-Encoding: 1115343 -1 642
+Encoding: 1115343 -1 632
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -21994,7 +21630,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A07
-Encoding: 1115344 -1 643
+Encoding: 1115344 -1 633
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22031,7 +21667,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A07
-Encoding: 1115345 -1 644
+Encoding: 1115345 -1 634
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22069,7 +21705,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A07
-Encoding: 1115346 -1 645
+Encoding: 1115346 -1 635
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22105,7 +21741,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A07
-Encoding: 1115347 -1 646
+Encoding: 1115347 -1 636
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22158,7 +21794,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A07
-Encoding: 1115348 -1 647
+Encoding: 1115348 -1 637
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22191,7 +21827,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A07
-Encoding: 1115349 -1 648
+Encoding: 1115349 -1 638
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22219,7 +21855,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A07
-Encoding: 1115350 -1 649
+Encoding: 1115350 -1 639
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22249,7 +21885,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A07
-Encoding: 1115351 -1 650
+Encoding: 1115351 -1 640
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22277,7 +21913,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A07
-Encoding: 1115352 -1 651
+Encoding: 1115352 -1 641
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22309,7 +21945,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A07
-Encoding: 1115353 -1 652
+Encoding: 1115353 -1 642
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22337,7 +21973,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A07
-Encoding: 1115354 -1 653
+Encoding: 1115354 -1 643
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22379,7 +22015,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A07
-Encoding: 1115355 -1 654
+Encoding: 1115355 -1 644
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22412,7 +22048,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A07
-Encoding: 1115356 -1 655
+Encoding: 1115356 -1 645
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22445,7 +22081,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A07
-Encoding: 1115357 -1 656
+Encoding: 1115357 -1 646
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22471,7 +22107,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A07
-Encoding: 1115358 -1 657
+Encoding: 1115358 -1 647
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22501,7 +22137,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A07
-Encoding: 1115359 -1 658
+Encoding: 1115359 -1 648
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22533,7 +22169,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A08
-Encoding: 1115401 -1 659
+Encoding: 1115401 -1 649
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -22566,7 +22202,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0B.11A08
-Encoding: 1115402 -1 660
+Encoding: 1115402 -1 650
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22597,7 +22233,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0C.11A08
-Encoding: 1115403 -1 661
+Encoding: 1115403 -1 651
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22627,7 +22263,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0D.11A08
-Encoding: 1115404 -1 662
+Encoding: 1115404 -1 652
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22656,7 +22292,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A08
-Encoding: 1115405 -1 663
+Encoding: 1115405 -1 653
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22689,7 +22325,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A08
-Encoding: 1115406 -1 664
+Encoding: 1115406 -1 654
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22717,7 +22353,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A08
-Encoding: 1115407 -1 665
+Encoding: 1115407 -1 655
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22746,7 +22382,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A08
-Encoding: 1115408 -1 666
+Encoding: 1115408 -1 656
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22776,7 +22412,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A08
-Encoding: 1115409 -1 667
+Encoding: 1115409 -1 657
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22804,7 +22440,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A08
-Encoding: 1115410 -1 668
+Encoding: 1115410 -1 658
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22834,7 +22470,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A08
-Encoding: 1115411 -1 669
+Encoding: 1115411 -1 659
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22862,7 +22498,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A08
-Encoding: 1115412 -1 670
+Encoding: 1115412 -1 660
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22894,7 +22530,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A08
-Encoding: 1115413 -1 671
+Encoding: 1115413 -1 661
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22919,7 +22555,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A08
-Encoding: 1115414 -1 672
+Encoding: 1115414 -1 662
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22946,7 +22582,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A08
-Encoding: 1115415 -1 673
+Encoding: 1115415 -1 663
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -22974,7 +22610,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A08
-Encoding: 1115416 -1 674
+Encoding: 1115416 -1 664
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23002,7 +22638,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A08
-Encoding: 1115417 -1 675
+Encoding: 1115417 -1 665
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23032,7 +22668,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A08
-Encoding: 1115418 -1 676
+Encoding: 1115418 -1 666
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23060,7 +22696,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A08
-Encoding: 1115419 -1 677
+Encoding: 1115419 -1 667
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23093,7 +22729,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A08
-Encoding: 1115420 -1 678
+Encoding: 1115420 -1 668
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23126,7 +22762,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A08
-Encoding: 1115421 -1 679
+Encoding: 1115421 -1 669
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23150,7 +22786,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A08
-Encoding: 1115422 -1 680
+Encoding: 1115422 -1 670
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23179,7 +22815,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A08
-Encoding: 1115423 -1 681
+Encoding: 1115423 -1 671
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23204,7 +22840,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A08
-Encoding: 1115424 -1 682
+Encoding: 1115424 -1 672
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23232,7 +22868,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A08
-Encoding: 1115425 -1 683
+Encoding: 1115425 -1 673
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23261,7 +22897,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A08
-Encoding: 1115426 -1 684
+Encoding: 1115426 -1 674
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23297,7 +22933,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A08
-Encoding: 1115427 -1 685
+Encoding: 1115427 -1 675
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23334,7 +22970,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A08
-Encoding: 1115428 -1 686
+Encoding: 1115428 -1 676
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23368,7 +23004,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A08
-Encoding: 1115429 -1 687
+Encoding: 1115429 -1 677
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23419,7 +23055,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A08
-Encoding: 1115430 -1 688
+Encoding: 1115430 -1 678
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23452,7 +23088,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A08
-Encoding: 1115431 -1 689
+Encoding: 1115431 -1 679
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23480,7 +23116,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A08
-Encoding: 1115432 -1 690
+Encoding: 1115432 -1 680
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23510,7 +23146,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A08
-Encoding: 1115433 -1 691
+Encoding: 1115433 -1 681
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23538,7 +23174,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A08
-Encoding: 1115434 -1 692
+Encoding: 1115434 -1 682
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23570,7 +23206,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C.11A08
-Encoding: 1115435 -1 693
+Encoding: 1115435 -1 683
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23598,7 +23234,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A08
-Encoding: 1115436 -1 694
+Encoding: 1115436 -1 684
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23640,7 +23276,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A08
-Encoding: 1115437 -1 695
+Encoding: 1115437 -1 685
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23673,7 +23309,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A08
-Encoding: 1115438 -1 696
+Encoding: 1115438 -1 686
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23706,7 +23342,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A08
-Encoding: 1115439 -1 697
+Encoding: 1115439 -1 687
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23732,7 +23368,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A08
-Encoding: 1115440 -1 698
+Encoding: 1115440 -1 688
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23762,7 +23398,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A08
-Encoding: 1115441 -1 699
+Encoding: 1115441 -1 689
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23794,7 +23430,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A00.11A09
-Encoding: 1115483 -1 700
+Encoding: 1115483 -1 690
 Width: 2400
 GlyphClass: 2
 Flags: W
@@ -23827,7 +23463,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A09
-Encoding: 1115484 -1 701
+Encoding: 1115484 -1 691
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23858,7 +23494,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A09
-Encoding: 1115485 -1 702
+Encoding: 1115485 -1 692
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23888,7 +23524,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A09
-Encoding: 1115486 -1 703
+Encoding: 1115486 -1 693
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23918,7 +23554,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0E.11A09
-Encoding: 1115487 -1 704
+Encoding: 1115487 -1 694
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23952,7 +23588,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.11A09
-Encoding: 1115488 -1 705
+Encoding: 1115488 -1 695
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -23981,7 +23617,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.11A09
-Encoding: 1115489 -1 706
+Encoding: 1115489 -1 696
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24011,7 +23647,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A11.11A09
-Encoding: 1115490 -1 707
+Encoding: 1115490 -1 697
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24042,7 +23678,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.11A09
-Encoding: 1115491 -1 708
+Encoding: 1115491 -1 698
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24071,7 +23707,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.11A09
-Encoding: 1115492 -1 709
+Encoding: 1115492 -1 699
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24102,7 +23738,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A14.11A09
-Encoding: 1115493 -1 710
+Encoding: 1115493 -1 700
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24131,7 +23767,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A15.11A09
-Encoding: 1115494 -1 711
+Encoding: 1115494 -1 701
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24162,7 +23798,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A16.11A09
-Encoding: 1115495 -1 712
+Encoding: 1115495 -1 702
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24187,7 +23823,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A17.11A09
-Encoding: 1115496 -1 713
+Encoding: 1115496 -1 703
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24214,7 +23850,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A18.11A09
-Encoding: 1115497 -1 714
+Encoding: 1115497 -1 704
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24243,7 +23879,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.11A09
-Encoding: 1115498 -1 715
+Encoding: 1115498 -1 705
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24272,7 +23908,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1A.11A09
-Encoding: 1115499 -1 716
+Encoding: 1115499 -1 706
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24303,7 +23939,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.11A09
-Encoding: 1115500 -1 717
+Encoding: 1115500 -1 707
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24332,7 +23968,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1C.11A09
-Encoding: 1115501 -1 718
+Encoding: 1115501 -1 708
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24366,7 +24002,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.11A09
-Encoding: 1115502 -1 719
+Encoding: 1115502 -1 709
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24400,7 +24036,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A09
-Encoding: 1115503 -1 720
+Encoding: 1115503 -1 710
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24425,7 +24061,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A09
-Encoding: 1115504 -1 721
+Encoding: 1115504 -1 711
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24455,7 +24091,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A09
-Encoding: 1115505 -1 722
+Encoding: 1115505 -1 712
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24481,7 +24117,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A09
-Encoding: 1115506 -1 723
+Encoding: 1115506 -1 713
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24509,7 +24145,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A09
-Encoding: 1115507 -1 724
+Encoding: 1115507 -1 714
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24539,7 +24175,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.11A09
-Encoding: 1115508 -1 725
+Encoding: 1115508 -1 715
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24577,7 +24213,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A24.11A09
-Encoding: 1115509 -1 726
+Encoding: 1115509 -1 716
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24616,7 +24252,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.11A09
-Encoding: 1115510 -1 727
+Encoding: 1115510 -1 717
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24652,7 +24288,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A26.11A09
-Encoding: 1115511 -1 728
+Encoding: 1115511 -1 718
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24705,7 +24341,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A27.11A09
-Encoding: 1115512 -1 729
+Encoding: 1115512 -1 719
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24739,7 +24375,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A28.11A09
-Encoding: 1115513 -1 730
+Encoding: 1115513 -1 720
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24768,7 +24404,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A09
-Encoding: 1115514 -1 731
+Encoding: 1115514 -1 721
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24799,7 +24435,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2A.11A09
-Encoding: 1115515 -1 732
+Encoding: 1115515 -1 722
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24828,7 +24464,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2B.11A09
-Encoding: 1115516 -1 733
+Encoding: 1115516 -1 723
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24862,7 +24498,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A2C.11A09
-Encoding: 1115517 -1 734
+Encoding: 1115517 -1 724
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24891,7 +24527,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2D.11A09
-Encoding: 1115518 -1 735
+Encoding: 1115518 -1 725
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24934,7 +24570,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2E.11A09
-Encoding: 1115519 -1 736
+Encoding: 1115519 -1 726
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -24968,7 +24604,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2F.11A09
-Encoding: 1115520 -1 737
+Encoding: 1115520 -1 727
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25002,7 +24638,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30.11A09
-Encoding: 1115521 -1 738
+Encoding: 1115521 -1 728
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25029,7 +24665,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A09
-Encoding: 1115522 -1 739
+Encoding: 1115522 -1 729
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25060,7 +24696,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A32.11A09
-Encoding: 1115523 -1 740
+Encoding: 1115523 -1 730
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25093,7 +24729,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.11A3B
-Encoding: 1115565 -1 741
+Encoding: 1115565 -1 731
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25128,7 +24764,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0C.11A3B
-Encoding: 1115566 -1 742
+Encoding: 1115566 -1 732
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25162,7 +24798,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A3B
-Encoding: 1115567 -1 743
+Encoding: 1115567 -1 733
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25196,7 +24832,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0D.11A3B.11A3E
-Encoding: 1115568 -1 744
+Encoding: 1115568 -1 734
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25239,7 +24875,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A1C.11A3B
-Encoding: 1115569 -1 745
+Encoding: 1115569 -1 735
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25277,7 +24913,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.11A3B
-Encoding: 1115570 -1 746
+Encoding: 1115570 -1 736
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25306,7 +24942,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1F.11A3B
-Encoding: 1115572 -1 747
+Encoding: 1115572 -1 737
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25340,7 +24976,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.11A3B
-Encoding: 1115574 -1 748
+Encoding: 1115574 -1 738
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25370,7 +25006,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A21.11A3B
-Encoding: 1115575 -1 749
+Encoding: 1115575 -1 739
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25402,7 +25038,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.11A3B
-Encoding: 1115576 -1 750
+Encoding: 1115576 -1 740
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25436,7 +25072,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A29.11A3B
-Encoding: 1115578 -1 751
+Encoding: 1115578 -1 741
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25471,7 +25107,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.11A3B
-Encoding: 1115580 -1 752
+Encoding: 1115580 -1 742
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25506,7 +25142,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A3E.low
-Encoding: 1115873 -1 753
+Encoding: 1115873 -1 743
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25530,7 +25166,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0B.squished
-Encoding: 1116447 -1 754
+Encoding: 1116447 -1 744
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25557,7 +25193,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0D.squished
-Encoding: 1116451 -1 755
+Encoding: 1116451 -1 745
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25582,7 +25218,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.squished
-Encoding: 1116456 -1 756
+Encoding: 1116456 -1 746
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25606,7 +25242,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.squished
-Encoding: 1116457 -1 757
+Encoding: 1116457 -1 747
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25630,7 +25266,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.squished
-Encoding: 1116458 -1 758
+Encoding: 1116458 -1 748
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25656,7 +25292,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.squished
-Encoding: 1116460 -1 759
+Encoding: 1116460 -1 749
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25680,7 +25316,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.squished
-Encoding: 1116463 -1 760
+Encoding: 1116463 -1 750
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25704,7 +25340,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.squished
-Encoding: 1116466 -1 761
+Encoding: 1116466 -1 751
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25733,7 +25369,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.squished
-Encoding: 1116467 -1 762
+Encoding: 1116467 -1 752
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25754,7 +25390,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.squished
-Encoding: 1116470 -1 763
+Encoding: 1116470 -1 753
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25779,7 +25415,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.squished
-Encoding: 1116473 -1 764
+Encoding: 1116473 -1 754
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25811,7 +25447,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.squished
-Encoding: 1116475 -1 765
+Encoding: 1116475 -1 755
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25841,7 +25477,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.squished
-Encoding: 1116476 -1 766
+Encoding: 1116476 -1 756
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25867,7 +25503,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A2C_u11A47
-Encoding: 1116571 -1 767
+Encoding: 1116571 -1 757
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25891,7 +25527,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.squished
-Encoding: 1116581 -1 768
+Encoding: 1116581 -1 758
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25916,7 +25552,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.squished
-Encoding: 1116590 -1 769
+Encoding: 1116590 -1 759
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -25936,7 +25572,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A30_u11A47
-Encoding: 1116675 -1 770
+Encoding: 1116675 -1 760
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -25958,7 +25594,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A47_u11A00
-Encoding: 1116799 -1 771
+Encoding: 1116799 -1 761
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -25992,7 +25628,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0B
-Encoding: 1116800 -1 772
+Encoding: 1116800 -1 762
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26024,7 +25660,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0C
-Encoding: 1116801 -1 773
+Encoding: 1116801 -1 763
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26055,7 +25691,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0D
-Encoding: 1116802 -1 774
+Encoding: 1116802 -1 764
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26086,7 +25722,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0E
-Encoding: 1116803 -1 775
+Encoding: 1116803 -1 765
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26121,7 +25757,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0F
-Encoding: 1116804 -1 776
+Encoding: 1116804 -1 766
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26151,7 +25787,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A10
-Encoding: 1116805 -1 777
+Encoding: 1116805 -1 767
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26182,7 +25818,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A11
-Encoding: 1116806 -1 778
+Encoding: 1116806 -1 768
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26214,7 +25850,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A12
-Encoding: 1116807 -1 779
+Encoding: 1116807 -1 769
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26244,7 +25880,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A13
-Encoding: 1116808 -1 780
+Encoding: 1116808 -1 770
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26276,7 +25912,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A14
-Encoding: 1116809 -1 781
+Encoding: 1116809 -1 771
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26306,7 +25942,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A15
-Encoding: 1116810 -1 782
+Encoding: 1116810 -1 772
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26338,7 +25974,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A16
-Encoding: 1116811 -1 783
+Encoding: 1116811 -1 773
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26364,7 +26000,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A17
-Encoding: 1116812 -1 784
+Encoding: 1116812 -1 774
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26392,7 +26028,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A18
-Encoding: 1116813 -1 785
+Encoding: 1116813 -1 775
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26422,7 +26058,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A19
-Encoding: 1116814 -1 786
+Encoding: 1116814 -1 776
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26452,7 +26088,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1A
-Encoding: 1116815 -1 787
+Encoding: 1116815 -1 777
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26484,7 +26120,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1B
-Encoding: 1116816 -1 788
+Encoding: 1116816 -1 778
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26514,7 +26150,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1C
-Encoding: 1116817 -1 789
+Encoding: 1116817 -1 779
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26549,7 +26185,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1D
-Encoding: 1116818 -1 790
+Encoding: 1116818 -1 780
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26584,7 +26220,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1E
-Encoding: 1116819 -1 791
+Encoding: 1116819 -1 781
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26610,7 +26246,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1F
-Encoding: 1116820 -1 792
+Encoding: 1116820 -1 782
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26641,7 +26277,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A20
-Encoding: 1116821 -1 793
+Encoding: 1116821 -1 783
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26668,7 +26304,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A21
-Encoding: 1116822 -1 794
+Encoding: 1116822 -1 784
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26697,7 +26333,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A22
-Encoding: 1116823 -1 795
+Encoding: 1116823 -1 785
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26728,7 +26364,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A23
-Encoding: 1116824 -1 796
+Encoding: 1116824 -1 786
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26766,7 +26402,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A24
-Encoding: 1116825 -1 797
+Encoding: 1116825 -1 787
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26805,7 +26441,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A25
-Encoding: 1116826 -1 798
+Encoding: 1116826 -1 788
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26841,7 +26477,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A26
-Encoding: 1116827 -1 799
+Encoding: 1116827 -1 789
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26894,7 +26530,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A27
-Encoding: 1116828 -1 800
+Encoding: 1116828 -1 790
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26929,7 +26565,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A28
-Encoding: 1116829 -1 801
+Encoding: 1116829 -1 791
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26959,7 +26595,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A29
-Encoding: 1116830 -1 802
+Encoding: 1116830 -1 792
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26991,7 +26627,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2A
-Encoding: 1116831 -1 803
+Encoding: 1116831 -1 793
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27021,7 +26657,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2B
-Encoding: 1116832 -1 804
+Encoding: 1116832 -1 794
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27055,7 +26691,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2C
-Encoding: 1116833 -1 805
+Encoding: 1116833 -1 795
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27085,7 +26721,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2D
-Encoding: 1116834 -1 806
+Encoding: 1116834 -1 796
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27129,7 +26765,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2E
-Encoding: 1116835 -1 807
+Encoding: 1116835 -1 797
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27164,7 +26800,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2F
-Encoding: 1116836 -1 808
+Encoding: 1116836 -1 798
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27199,7 +26835,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A30
-Encoding: 1116837 -1 809
+Encoding: 1116837 -1 799
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27227,7 +26863,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A31
-Encoding: 1116838 -1 810
+Encoding: 1116838 -1 800
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27259,7 +26895,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A32
-Encoding: 1116839 -1 811
+Encoding: 1116839 -1 801
 Width: 0
 GlyphClass: 2
 Flags: W
