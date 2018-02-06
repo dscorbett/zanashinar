@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1517886690
+ModificationTime: 1517889129
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,8 +68,10 @@ Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 6 8 0 "'ccmp' wide form" { "'ccmp' wide form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' above" { "'mkmk' above-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined vowel or medial consonant-1"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > 'latn' <'dflt' > 'tibt' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined consonant or vowel length mark" { "'mark' subjoined consonant or vowel length mark-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' subjoined consonant or vowel length mark" { "'mkmk' subjoined consonant or vowel length mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -144,11 +146,11 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 72176 16 9
+WinInfo: 72240 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
+AnchorClass2: "above-mkmk" "'mkmk' above-1" "above" "'mark' above-1" "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
 BeginChars: 1116840 802
 
 StartChar: .notdef
@@ -3073,6 +3075,8 @@ Encoding: 72193 72193 118
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
+AnchorPoint: "above-mkmk" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3130,6 +3134,8 @@ Encoding: 72196 72196 121
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
+AnchorPoint: "above-mkmk" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3148,6 +3154,8 @@ Encoding: 72197 72197 122
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
+AnchorPoint: "above-mkmk" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3168,6 +3176,8 @@ Encoding: 72198 72198 123
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
+AnchorPoint: "above-mkmk" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4459,6 +4469,7 @@ Encoding: 72245 72245 170
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4494,6 +4505,7 @@ Encoding: 72246 72246 171
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4549,6 +4561,7 @@ Encoding: 72247 72247 172
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4586,6 +4599,7 @@ Encoding: 72248 72248 173
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -200 1400 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4660,21 +4674,22 @@ EndChar
 
 StartChar: u11A3A
 Encoding: 72250 72250 175
-Width: 0
+Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
 SplineSet
--1000 1300 m 1,0,-1
- -1600 1300 l 1,1,-1
- -1600 1500 l 1,2,-1
- -200 1500 l 1,3,-1
- -200 1300 l 1,4,-1
- -800 1300 l 1,5,-1
- -800 900 l 1,6,-1
- -1000 900 l 1,7,-1
- -1000 1300 l 1,0,-1
+800 1300 m 1,0,-1
+ 200 1300 l 1,1,-1
+ 200 1500 l 1,2,-1
+ 1600 1500 l 1,3,-1
+ 1600 1300 l 1,4,-1
+ 1000 1300 l 1,5,-1
+ 1000 900 l 1,6,-1
+ 800 900 l 1,7,-1
+ 800 1300 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25170,6 +25185,8 @@ Encoding: 1116447 -1 744
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25197,23 +25214,25 @@ Encoding: 1116451 -1 745
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--1400 800 m 5,0,-1
- -1400 200 l 5,1,-1
- -1000 200 l 5,2,-1
- -1000 800 l 5,3,-1
- -1400 800 l 5,0,-1
--200 1000 m 5,4,-1
- -200 0 l 5,5,-1
- -400 0 l 5,6,-1
- -400 800 l 5,7,-1
- -800 800 l 5,8,-1
- -800 0 l 5,9,-1
- -1600 0 l 5,10,-1
- -1600 1000 l 5,11,-1
- -200 1000 l 5,4,-1
+-1400 800 m 1,0,-1
+ -1400 200 l 1,1,-1
+ -1000 200 l 1,2,-1
+ -1000 800 l 1,3,-1
+ -1400 800 l 1,0,-1
+-200 1000 m 1,4,-1
+ -200 0 l 1,5,-1
+ -400 0 l 1,6,-1
+ -400 800 l 1,7,-1
+ -800 800 l 1,8,-1
+ -800 0 l 1,9,-1
+ -1600 0 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -200 1000 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -25222,22 +25241,24 @@ Encoding: 1116456 -1 746
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 400 l 5,1,-1
- -1400 400 l 5,2,-1
- -1400 200 l 5,3,-1
- -200 200 l 5,4,-1
- -200 0 l 5,5,-1
- -1600 0 l 5,6,-1
- -1600 600 l 5,7,-1
- -400 600 l 5,8,-1
- -400 800 l 5,9,-1
- -1600 800 l 5,10,-1
- -1600 1000 l 5,11,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 400 l 1,1,-1
+ -1400 400 l 1,2,-1
+ -1400 200 l 1,3,-1
+ -200 200 l 1,4,-1
+ -200 0 l 1,5,-1
+ -1600 0 l 1,6,-1
+ -1600 600 l 1,7,-1
+ -400 600 l 1,8,-1
+ -400 800 l 1,9,-1
+ -1600 800 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25246,22 +25267,24 @@ Encoding: 1116457 -1 747
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 800 l 5,1,-1
- -1400 800 l 5,2,-1
- -1400 600 l 5,3,-1
- -200 600 l 5,4,-1
- -200 400 l 5,5,-1
- -1400 400 l 5,6,-1
- -1400 200 l 5,7,-1
- -200 200 l 5,8,-1
- -200 0 l 5,9,-1
- -1600 0 l 5,10,-1
- -1600 1000 l 5,11,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 800 l 1,1,-1
+ -1400 800 l 1,2,-1
+ -1400 600 l 1,3,-1
+ -200 600 l 1,4,-1
+ -200 400 l 1,5,-1
+ -1400 400 l 1,6,-1
+ -1400 200 l 1,7,-1
+ -200 200 l 1,8,-1
+ -200 0 l 1,9,-1
+ -1600 0 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25270,24 +25293,26 @@ Encoding: 1116458 -1 748
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 0 l 5,1,-1
- -400 0 l 5,2,-1
- -400 400 l 5,3,-1
- -1400 400 l 5,4,-1
- -1400 200 l 5,5,-1
- -800 200 l 5,6,-1
- -800 0 l 5,7,-1
- -1600 0 l 5,8,-1
- -1600 600 l 5,9,-1
- -400 600 l 5,10,-1
- -400 800 l 5,11,-1
- -1600 800 l 5,12,-1
- -1600 1000 l 5,13,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 0 l 1,1,-1
+ -400 0 l 1,2,-1
+ -400 400 l 1,3,-1
+ -1400 400 l 1,4,-1
+ -1400 200 l 1,5,-1
+ -800 200 l 1,6,-1
+ -800 0 l 1,7,-1
+ -1600 0 l 1,8,-1
+ -1600 600 l 1,9,-1
+ -400 600 l 1,10,-1
+ -400 800 l 1,11,-1
+ -1600 800 l 1,12,-1
+ -1600 1000 l 1,13,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25296,22 +25321,24 @@ Encoding: 1116460 -1 749
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 800 l 5,1,-1
- -1400 800 l 5,2,-1
- -1400 600 l 5,3,-1
- -200 600 l 5,4,-1
- -200 0 l 5,5,-1
- -400 0 l 5,6,-1
- -400 400 l 5,7,-1
- -1400 400 l 5,8,-1
- -1400 0 l 5,9,-1
- -1600 0 l 5,10,-1
- -1600 1000 l 5,11,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 800 l 1,1,-1
+ -1400 800 l 1,2,-1
+ -1400 600 l 1,3,-1
+ -200 600 l 1,4,-1
+ -200 0 l 1,5,-1
+ -400 0 l 1,6,-1
+ -400 400 l 1,7,-1
+ -1400 400 l 1,8,-1
+ -1400 0 l 1,9,-1
+ -1600 0 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25320,22 +25347,24 @@ Encoding: 1116463 -1 750
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 800 l 5,1,-1
- -1400 800 l 5,2,-1
- -1400 600 l 5,3,-1
- -200 600 l 5,4,-1
- -200 0 l 5,5,-1
- -1600 0 l 5,6,-1
- -1600 200 l 5,7,-1
- -400 200 l 5,8,-1
- -400 400 l 5,9,-1
- -1600 400 l 5,10,-1
- -1600 1000 l 5,11,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 800 l 1,1,-1
+ -1400 800 l 1,2,-1
+ -1400 600 l 1,3,-1
+ -200 600 l 1,4,-1
+ -200 0 l 1,5,-1
+ -1600 0 l 1,6,-1
+ -1600 200 l 1,7,-1
+ -400 200 l 1,8,-1
+ -400 400 l 1,9,-1
+ -1600 400 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25344,27 +25373,29 @@ Encoding: 1116466 -1 751
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--1000 400 m 5,0,-1
- -1400 400 l 5,1,-1
- -1400 200 l 5,2,-1
- -1000 200 l 5,3,-1
- -1000 400 l 5,0,-1
--200 1000 m 5,4,-1
- -200 0 l 5,5,-1
- -400 0 l 5,6,-1
- -400 400 l 5,7,-1
- -800 400 l 5,8,-1
- -800 0 l 5,9,-1
- -1600 0 l 5,10,-1
- -1600 600 l 5,11,-1
- -400 600 l 5,12,-1
- -400 800 l 5,13,-1
- -1600 800 l 5,14,-1
- -1600 1000 l 5,15,-1
- -200 1000 l 5,4,-1
+-1000 400 m 1,0,-1
+ -1400 400 l 1,1,-1
+ -1400 200 l 1,2,-1
+ -1000 200 l 1,3,-1
+ -1000 400 l 1,0,-1
+-200 1000 m 1,4,-1
+ -200 0 l 1,5,-1
+ -400 0 l 1,6,-1
+ -400 400 l 1,7,-1
+ -800 400 l 1,8,-1
+ -800 0 l 1,9,-1
+ -1600 0 l 1,10,-1
+ -1600 600 l 1,11,-1
+ -400 600 l 1,12,-1
+ -400 800 l 1,13,-1
+ -1600 800 l 1,14,-1
+ -1600 1000 l 1,15,-1
+ -200 1000 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -25373,6 +25404,8 @@ Encoding: 1116467 -1 752
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25394,23 +25427,25 @@ Encoding: 1116470 -1 753
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--1400 200 m 5,0,-1
- -1000 200 l 5,1,-1
- -1000 800 l 5,2,-1
- -1400 800 l 5,3,-1
- -1400 200 l 5,0,-1
--800 1000 m 5,4,-1
- -800 200 l 5,5,-1
- -400 200 l 5,6,-1
- -400 1000 l 5,7,-1
- -200 1000 l 5,8,-1
- -200 0 l 5,9,-1
- -1600 0 l 5,10,-1
- -1600 1000 l 5,11,-1
- -800 1000 l 5,4,-1
+-1400 200 m 1,0,-1
+ -1000 200 l 1,1,-1
+ -1000 800 l 1,2,-1
+ -1400 800 l 1,3,-1
+ -1400 200 l 1,0,-1
+-800 1000 m 1,4,-1
+ -800 200 l 1,5,-1
+ -400 200 l 1,6,-1
+ -400 1000 l 1,7,-1
+ -200 1000 l 1,8,-1
+ -200 0 l 1,9,-1
+ -1600 0 l 1,10,-1
+ -1600 1000 l 1,11,-1
+ -800 1000 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -25419,30 +25454,32 @@ Encoding: 1116473 -1 754
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--800 200 m 5,0,-1
- -400 200 l 5,1,-1
- -400 800 l 5,2,-1
- -800 800 l 5,3,-1
- -800 200 l 5,0,-1
--311 1000 m 5,4,-1
- -169 1300 l 6,5,6
- -144 1353 -144 1353 -97 1325 c 5,7,8
- 42 1219 42 1219 203 1333 c 5,9,10
- 255 1349 255 1349 255 1290 c 4,11,12
- 255 1167 255 1167 178 1099 c 5,13,14
- 46 1019 46 1019 -146 1113 c 5,15,-1
- -200 1000 l 5,16,-1
- -200 0 l 5,17,-1
- -1600 0 l 5,18,-1
- -1600 200 l 5,19,-1
- -1000 200 l 5,20,-1
- -1000 800 l 5,21,-1
- -1600 800 l 5,22,-1
- -1600 1000 l 5,23,-1
- -311 1000 l 5,4,-1
+-800 200 m 1,0,-1
+ -400 200 l 1,1,-1
+ -400 800 l 1,2,-1
+ -800 800 l 1,3,-1
+ -800 200 l 1,0,-1
+-311 1000 m 1,4,-1
+ -169 1300 l 2,5,6
+ -144 1353 -144 1353 -97 1325 c 1,7,8
+ 42 1219 42 1219 203 1333 c 1,9,10
+ 255 1349 255 1349 255 1290 c 0,11,12
+ 255 1167 255 1167 178 1099 c 1,13,14
+ 46 1019 46 1019 -146 1113 c 1,15,-1
+ -200 1000 l 1,16,-1
+ -200 0 l 1,17,-1
+ -1600 0 l 1,18,-1
+ -1600 200 l 1,19,-1
+ -1000 200 l 1,20,-1
+ -1000 800 l 1,21,-1
+ -1600 800 l 1,22,-1
+ -1600 1000 l 1,23,-1
+ -311 1000 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -25451,28 +25488,30 @@ Encoding: 1116475 -1 755
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--311 1000 m 5,0,-1
- -169 1300 l 6,1,2
- -144 1353 -144 1353 -97 1325 c 5,3,4
- 42 1219 42 1219 203 1333 c 5,5,6
- 255 1349 255 1349 255 1290 c 4,7,8
- 255 1167 255 1167 178 1099 c 5,9,10
- 46 1019 46 1019 -146 1113 c 5,11,-1
- -296 800 l 5,12,-1
- -1400 800 l 5,13,-1
- -1400 600 l 5,14,-1
- -200 600 l 5,15,-1
- -200 400 l 5,16,-1
- -1400 400 l 5,17,-1
- -1400 200 l 5,18,-1
- -200 200 l 5,19,-1
- -200 0 l 5,20,-1
- -1600 0 l 5,21,-1
- -1600 1000 l 5,22,-1
- -311 1000 l 5,0,-1
+-311 1000 m 1,0,-1
+ -169 1300 l 2,1,2
+ -144 1353 -144 1353 -97 1325 c 1,3,4
+ 42 1219 42 1219 203 1333 c 1,5,6
+ 255 1349 255 1349 255 1290 c 0,7,8
+ 255 1167 255 1167 178 1099 c 1,9,10
+ 46 1019 46 1019 -146 1113 c 1,11,-1
+ -296 800 l 1,12,-1
+ -1400 800 l 1,13,-1
+ -1400 600 l 1,14,-1
+ -200 600 l 1,15,-1
+ -200 400 l 1,16,-1
+ -1400 400 l 1,17,-1
+ -1400 200 l 1,18,-1
+ -200 200 l 1,19,-1
+ -200 0 l 1,20,-1
+ -1600 0 l 1,21,-1
+ -1600 1000 l 1,22,-1
+ -311 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25481,24 +25520,26 @@ Encoding: 1116476 -1 756
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
--200 1000 m 5,0,-1
- -200 800 l 5,1,-1
- -1400 800 l 5,2,-1
- -1400 200 l 5,3,-1
- -1000 200 l 5,4,-1
- -1000 600 l 5,5,-1
- -200 600 l 5,6,-1
- -200 0 l 5,7,-1
- -400 0 l 5,8,-1
- -400 400 l 5,9,-1
- -800 400 l 5,10,-1
- -800 0 l 5,11,-1
- -1600 0 l 5,12,-1
- -1600 1000 l 5,13,-1
- -200 1000 l 5,0,-1
+-200 1000 m 1,0,-1
+ -200 800 l 1,1,-1
+ -1400 800 l 1,2,-1
+ -1400 200 l 1,3,-1
+ -1000 200 l 1,4,-1
+ -1000 600 l 1,5,-1
+ -200 600 l 1,6,-1
+ -200 0 l 1,7,-1
+ -400 0 l 1,8,-1
+ -400 400 l 1,9,-1
+ -800 400 l 1,10,-1
+ -800 0 l 1,11,-1
+ -1600 0 l 1,12,-1
+ -1600 1000 l 1,13,-1
+ -200 1000 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -25507,6 +25548,7 @@ Encoding: 1116571 -1 757
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25531,6 +25573,8 @@ Encoding: 1116581 -1 758
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25556,6 +25600,8 @@ Encoding: 1116590 -1 759
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -25576,6 +25622,7 @@ Encoding: 1116675 -1 760
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
 SplineSet
