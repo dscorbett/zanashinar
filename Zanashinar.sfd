@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1517878858
+ModificationTime: 1517879086
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -144,12 +144,12 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116784 16 9
+WinInfo: 1116672 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 AnchorClass2: "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
-BeginChars: 1117291 839
+BeginChars: 1116840 812
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -25505,737 +25505,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A0B.11A3B.11A03
-Encoding: 1115616 -1 753
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-200 800 m 1,0,-1
- 400 800 l 1,1,-1
- 400 200 l 1,2,-1
- 800 200 l 1,3,-1
- 800 1300 l 1,4,-1
- 200 1300 l 1,5,-1
- 200 1500 l 1,6,-1
- 1600 1500 l 1,7,-1
- 1600 0 l 1,8,-1
- 1400 0 l 1,9,-1
- 1400 1300 l 1,10,-1
- 1000 1300 l 1,11,-1
- 1000 0 l 1,12,-1
- 200 0 l 1,13,-1
- 200 800 l 1,0,-1
-900 -250 m 1,14,15
- 794 -500 794 -500 550 -500 c 0,16,17
- 300 -500 300 -500 200 -100 c 1,18,19
- 400 -350 400 -350 550 -350 c 256,20,21
- 700 -350 700 -350 900 -100 c 1,22,23
- 1100 -350 1100 -350 1250 -350 c 256,24,25
- 1400 -350 1400 -350 1600 -100 c 1,26,27
- 1500 -500 1500 -500 1250 -500 c 0,28,29
- 1006 -500 1006 -500 900 -250 c 1,14,15
-200 -1000 m 1,30,-1
- 200 -800 l 1,31,-1
- 1500 -800 l 1,32,-1
- 1500 -500 l 1,33,-1
- 1600 -500 l 1,34,-1
- 1600 -1000 l 1,35,-1
- 200 -1000 l 1,30,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
-StartChar: u11A31.11A3B.11A3E.11A03
-Encoding: 1115632 -1 754
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 -1000 m 1,0,-1
- 1400 -800 l 1,1,-1
- 1000 -900 l 1,2,-1
- 1400 -1000 l 1,0,-1
-1400 0 m 1,3,-1
- 1400 650 l 1,4,-1
- 1000 650 l 1,5,-1
- 1000 0 l 1,6,-1
- 200 0 l 1,7,-1
- 200 1500 l 1,8,-1
- 1600 1500 l 1,9,-1
- 1600 1300 l 1,10,-1
- 400 1300 l 1,11,-1
- 400 200 l 1,12,-1
- 800 200 l 1,13,-1
- 800 850 l 1,14,-1
- 1600 850 l 1,15,-1
- 1600 0 l 1,16,-1
- 1400 0 l 1,3,-1
-1500 -1233 m 1,17,-1
- 500 -900 l 1,18,-1
- 1600 -533 l 1,19,-1
- 1600 -1700 l 1,20,-1
- 200 -1700 l 1,21,-1
- 200 -1500 l 1,22,-1
- 1500 -1500 l 1,23,-1
- 1500 -1233 l 1,17,-1
-900 -250 m 1,24,25
- 794 -500 794 -500 550 -500 c 0,26,27
- 300 -500 300 -500 200 -100 c 1,28,29
- 400 -350 400 -350 550 -350 c 256,30,31
- 700 -350 700 -350 900 -100 c 1,32,33
- 1100 -350 1100 -350 1250 -350 c 256,34,35
- 1400 -350 1400 -350 1600 -100 c 1,36,37
- 1500 -500 1500 -500 1250 -500 c 0,38,39
- 1006 -500 1006 -500 900 -250 c 1,24,25
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
-StartChar: u11A0B.11A3C
-Encoding: 1115684 -1 755
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 1300 m 1,0,-1
- 1000 1300 l 1,1,-1
- 1000 0 l 1,2,-1
- 200 0 l 1,3,-1
- 200 800 l 1,4,-1
- 400 800 l 1,5,-1
- 400 200 l 1,6,-1
- 800 200 l 1,7,-1
- 800 1300 l 1,8,-1
- 200 1300 l 1,9,-1
- 200 1500 l 1,10,-1
- 1600 1500 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 1300 l 1,0,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
-StartChar: u11A0C.11A3C
-Encoding: 1115685 -1 756
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 1300 m 1,0,-1
- 1000 1300 l 1,1,-1
- 1000 200 l 1,2,-1
- 1400 200 l 1,3,-1
- 1400 1300 l 1,0,-1
-1400 0 m 1,4,-1
- 800 0 l 1,5,-1
- 800 1300 l 1,6,-1
- 400 1300 l 1,7,-1
- 400 0 l 1,8,-1
- 200 0 l 1,9,-1
- 200 1500 l 1,10,-1
- 1600 1500 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 0 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A0D.11A3C
-Encoding: 1115686 -1 757
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-400 1300 m 1,0,-1
- 400 200 l 1,1,-1
- 800 200 l 1,2,-1
- 800 1300 l 1,3,-1
- 400 1300 l 1,0,-1
-1400 1300 m 1,4,-1
- 1000 1300 l 1,5,-1
- 1000 0 l 1,6,-1
- 200 0 l 1,7,-1
- 200 1500 l 1,8,-1
- 1600 1500 l 1,9,-1
- 1600 -600 l 1,10,-1
- 1400 -600 l 1,11,12
- 800 -400 800 -400 200 -600 c 1,13,-1
- 200 -400 l 1,14,15
- 800 -200 800 -200 1400 -400 c 1,16,-1
- 1400 1300 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A0D.11A3C.11A3E
-Encoding: 1115687 -1 758
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-400 1300 m 1,0,-1
- 400 200 l 1,1,-1
- 800 200 l 1,2,-1
- 800 1300 l 1,3,-1
- 400 1300 l 1,0,-1
-1400 -1100 m 1,4,-1
- 1400 -900 l 1,5,-1
- 1000 -1000 l 1,6,-1
- 1400 -1100 l 1,4,-1
-1400 -600 m 1,7,8
- 800 -400 800 -400 200 -600 c 1,9,-1
- 200 -400 l 1,10,11
- 800 -200 800 -200 1400 -400 c 1,12,-1
- 1400 1300 l 1,13,-1
- 1000 1300 l 1,14,-1
- 1000 0 l 1,15,-1
- 200 0 l 1,16,-1
- 200 1500 l 1,17,-1
- 1600 1500 l 1,18,-1
- 1600 -1366 l 1,19,-1
- 500 -1000 l 1,20,-1
- 1400 -700 l 1,21,-1
- 1400 -600 l 1,7,8
-EndSplineSet
-EndChar
-
-StartChar: u11A0E.11A3C
-Encoding: 1115688 -1 759
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-400 600 m 1,0,-1
- 400 200 l 1,1,-1
- 800 200 l 1,2,-1
- 800 600 l 1,3,-1
- 400 600 l 1,0,-1
-1400 1300 m 1,4,-1
- 1000 1300 l 1,5,-1
- 1000 0 l 1,6,-1
- 200 0 l 1,7,-1
- 200 800 l 1,8,-1
- 800 800 l 1,9,-1
- 800 1300 l 1,10,-1
- 200 1300 l 1,11,-1
- 200 1500 l 1,12,-1
- 1600 1500 l 1,13,-1
- 1600 -600 l 1,14,-1
- 1400 -600 l 1,15,16
- 800 -400 800 -400 200 -600 c 1,17,-1
- 200 -400 l 1,18,19
- 800 -200 800 -200 1400 -400 c 1,20,-1
- 1400 1300 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A17.11A3C
-Encoding: 1115689 -1 760
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 0 m 1,0,-1
- 200 0 l 1,1,-1
- 200 200 l 1,2,-1
- 1150 200 l 1,3,-1
- 200 1500 l 1,4,-1
- 1600 1500 l 1,5,-1
- 1600 800 l 1,6,-1
- 1400 800 l 1,7,-1
- 1400 1300 l 1,8,-1
- 650 1300 l 1,9,-1
- 1600 0 l 1,10,-1
- 1600 -600 l 1,11,-1
- 1400 -600 l 1,12,13
- 800 -400 800 -400 200 -600 c 1,14,-1
- 200 -400 l 1,15,16
- 800 -200 800 -200 1400 -400 c 1,17,-1
- 1400 0 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A19.11A3C
-Encoding: 1115690 -1 761
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 650 m 1,0,-1
- 400 650 l 1,1,-1
- 400 0 l 1,2,-1
- 200 0 l 1,3,-1
- 200 1500 l 1,4,-1
- 1600 1500 l 1,5,-1
- 1600 1300 l 1,6,-1
- 400 1300 l 1,7,-1
- 400 850 l 1,8,-1
- 1600 850 l 1,9,-1
- 1600 -600 l 1,10,-1
- 1400 -600 l 1,11,12
- 800 -400 800 -400 200 -600 c 1,13,-1
- 200 -400 l 1,14,15
- 800 -200 800 -200 1400 -400 c 1,16,-1
- 1400 650 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1A.11A3C
-Encoding: 1115691 -1 762
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-400 1300 m 1,0,-1
- 400 850 l 1,1,-1
- 1400 850 l 1,2,-1
- 1400 1300 l 1,3,-1
- 400 1300 l 1,0,-1
-1400 650 m 1,4,-1
- 400 650 l 1,5,-1
- 400 200 l 1,6,-1
- 1400 200 l 1,7,-1
- 1400 650 l 1,4,-1
-1400 0 m 1,8,-1
- 200 0 l 1,9,-1
- 200 1500 l 1,10,-1
- 1600 1500 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 0 l 1,8,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1B.11A3C
-Encoding: 1115692 -1 763
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 0 m 1,0,-1
- 200 0 l 1,1,-1
- 200 200 l 1,2,-1
- 1400 200 l 1,3,-1
- 1400 650 l 1,4,-1
- 200 650 l 1,5,-1
- 200 1500 l 1,6,-1
- 1600 1500 l 1,7,-1
- 1600 1300 l 1,8,-1
- 400 1300 l 1,9,-1
- 400 850 l 1,10,-1
- 1600 850 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 0 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1B.11A3C.11A3E
-Encoding: 1115693 -1 764
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 -1100 m 1,0,-1
- 1400 -900 l 1,1,-1
- 1000 -1000 l 1,2,-1
- 1400 -1100 l 1,0,-1
-1400 0 m 1,3,-1
- 200 0 l 1,4,-1
- 200 200 l 1,5,-1
- 1400 200 l 1,6,-1
- 1400 650 l 1,7,-1
- 200 650 l 1,8,-1
- 200 1500 l 1,9,-1
- 1600 1500 l 1,10,-1
- 1600 1300 l 1,11,-1
- 400 1300 l 1,12,-1
- 400 850 l 1,13,-1
- 1600 850 l 1,14,-1
- 1600 -1366 l 1,15,-1
- 500 -1000 l 1,16,-1
- 1400 -700 l 1,17,-1
- 1400 -600 l 1,18,19
- 800 -400 800 -400 200 -600 c 1,20,-1
- 200 -400 l 1,21,22
- 800 -200 800 -200 1400 -400 c 1,23,-1
- 1400 0 l 1,3,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1C.11A3C
-Encoding: 1115694 -1 765
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1600 0 m 1,0,-1
- 1600 -600 l 1,1,-1
- 1400 -600 l 1,2,3
- 800 -400 800 -400 200 -600 c 1,4,-1
- 200 -400 l 1,5,6
- 800 -200 800 -200 1400 -400 c 1,7,-1
- 1400 0 l 1,8,9
- 1009 71 1009 71 803 150 c 1,10,11
- 518 334 518 334 824 528 c 0,12,13
- 994 632 994 632 1150 700 c 1,14,-1
- 400 700 l 1,15,-1
- 400 0 l 1,16,-1
- 200 0 l 1,17,-1
- 200 1500 l 1,18,-1
- 1600 1500 l 1,19,-1
- 1600 1300 l 1,20,-1
- 400 1300 l 1,21,-1
- 400 900 l 1,22,-1
- 1600 900 l 1,23,-1
- 1600 800 l 1,24,25
- 1403 678 1403 678 1096 500 c 0,26,27
- 812 334 812 334 1099 211 c 1,28,29
- 1327 99 1327 99 1600 0 c 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1E.11A3C
-Encoding: 1115695 -1 766
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 0 m 1,0,-1
- 200 0 l 1,1,-1
- 200 1500 l 1,2,-1
- 400 1500 l 1,3,-1
- 400 200 l 1,4,-1
- 1400 200 l 1,5,-1
- 1400 1500 l 1,6,-1
- 1600 1500 l 1,7,-1
- 1600 -600 l 1,8,-1
- 1400 -600 l 1,9,10
- 800 -400 800 -400 200 -600 c 1,11,-1
- 200 -400 l 1,12,13
- 800 -200 800 -200 1400 -400 c 1,14,-1
- 1400 0 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1F.11A3C
-Encoding: 1115696 -1 767
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 200 m 1,0,-1
- 1400 1300 l 1,1,-1
- 1000 1300 l 1,2,-1
- 1000 200 l 1,3,-1
- 1400 200 l 1,0,-1
-1400 0 m 1,4,-1
- 200 0 l 1,5,-1
- 200 1500 l 1,6,-1
- 400 1500 l 1,7,-1
- 400 200 l 1,8,-1
- 800 200 l 1,9,-1
- 800 1500 l 1,10,-1
- 1600 1500 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 0 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A1F.11A3C.11A3E
-Encoding: 1115697 -1 768
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 200 m 1,0,-1
- 1400 1300 l 1,1,-1
- 1000 1300 l 1,2,-1
- 1000 200 l 1,3,-1
- 1400 200 l 1,0,-1
-1400 -1100 m 1,4,-1
- 1400 -900 l 1,5,-1
- 1000 -1000 l 1,6,-1
- 1400 -1100 l 1,4,-1
-1400 0 m 1,7,-1
- 200 0 l 1,8,-1
- 200 1500 l 1,9,-1
- 400 1500 l 1,10,-1
- 400 200 l 1,11,-1
- 800 200 l 1,12,-1
- 800 1500 l 1,13,-1
- 1600 1500 l 1,14,-1
- 1600 -1366 l 1,15,-1
- 500 -1000 l 1,16,-1
- 1400 -700 l 1,17,-1
- 1400 -600 l 1,18,19
- 800 -400 800 -400 200 -600 c 1,20,-1
- 200 -400 l 1,21,22
- 800 -200 800 -200 1400 -400 c 1,23,-1
- 1400 0 l 1,7,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A20.11A3C
-Encoding: 1115698 -1 769
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 200 m 1,0,-1
- 1400 1300 l 1,1,-1
- 400 1300 l 1,2,-1
- 400 200 l 1,3,-1
- 1400 200 l 1,0,-1
-1400 0 m 1,4,-1
- 200 0 l 1,5,-1
- 200 1500 l 1,6,-1
- 1600 1500 l 1,7,-1
- 1600 -600 l 1,8,-1
- 1400 -600 l 1,9,10
- 800 -400 800 -400 200 -600 c 1,11,-1
- 200 -400 l 1,12,13
- 800 -200 800 -200 1400 -400 c 1,14,-1
- 1400 0 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A21.11A3C
-Encoding: 1115699 -1 770
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 200 m 1,0,-1
- 1400 1300 l 1,1,-1
- 550 1300 l 1,2,3
- 687 1148 687 1148 748 995 c 0,4,5
- 828 796 828 796 778 596 c 0,6,7
- 728 398 728 398 550 200 c 1,8,-1
- 1400 200 l 1,0,-1
-1400 0 m 1,9,-1
- 200 0 l 1,10,11
- 902 750 902 750 200 1500 c 1,12,-1
- 1600 1500 l 1,13,-1
- 1600 -600 l 1,14,-1
- 1400 -600 l 1,15,16
- 800 -400 800 -400 200 -600 c 1,17,-1
- 200 -400 l 1,18,19
- 800 -200 800 -200 1400 -400 c 1,20,-1
- 1400 0 l 1,9,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A22.11A3C
-Encoding: 1115700 -1 771
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-400 200 m 1,0,-1
- 800 200 l 1,1,-1
- 800 1300 l 1,2,-1
- 400 1300 l 1,3,-1
- 400 200 l 1,0,-1
-1600 -600 m 1,4,-1
- 1400 -600 l 1,5,6
- 800 -400 800 -400 200 -600 c 1,7,-1
- 200 -400 l 1,8,9
- 800 -200 800 -200 1400 -400 c 1,10,-1
- 1400 0 l 1,11,-1
- 200 0 l 1,12,-1
- 200 1500 l 1,13,-1
- 1000 1500 l 1,14,-1
- 1000 200 l 1,15,-1
- 1400 200 l 1,16,-1
- 1400 1500 l 1,17,-1
- 1600 1500 l 1,18,-1
- 1600 -600 l 1,4,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A2E.11A3C
-Encoding: 1115701 -1 772
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 1300 m 1,0,-1
- 1000 1300 l 1,1,-1
- 1000 200 l 1,2,-1
- 1400 200 l 1,3,-1
- 1400 1300 l 1,0,-1
-1400 0 m 1,4,-1
- 800 0 l 1,5,-1
- 800 650 l 1,6,-1
- 400 650 l 1,7,-1
- 400 0 l 1,8,-1
- 200 0 l 1,9,-1
- 200 1500 l 1,10,-1
- 400 1500 l 1,11,-1
- 400 850 l 1,12,-1
- 800 850 l 1,13,-1
- 800 1500 l 1,14,-1
- 1600 1500 l 1,15,-1
- 1600 -600 l 1,16,-1
- 1400 -600 l 1,17,18
- 800 -400 800 -400 200 -600 c 1,19,-1
- 200 -400 l 1,20,21
- 800 -200 800 -200 1400 -400 c 1,22,-1
- 1400 0 l 1,4,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
-StartChar: u11A30.11A3C
-Encoding: 1115702 -1 773
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 0 m 1,0,-1
- 400 1200 l 1,1,-1
- 400 0 l 1,2,-1
- 200 0 l 1,3,-1
- 200 1500 l 1,4,-1
- 400 1500 l 1,5,-1
- 1400 300 l 1,6,-1
- 1400 1500 l 1,7,-1
- 1600 1500 l 1,8,-1
- 1600 -600 l 1,9,-1
- 1400 -600 l 1,10,11
- 800 -400 800 -400 200 -600 c 1,12,-1
- 200 -400 l 1,13,14
- 800 -200 800 -200 1400 -400 c 1,15,-1
- 1400 0 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A31.11A3C
-Encoding: 1115703 -1 774
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 650 m 1,0,-1
- 1000 650 l 1,1,-1
- 1000 0 l 1,2,-1
- 200 0 l 1,3,-1
- 200 1500 l 1,4,-1
- 1600 1500 l 1,5,-1
- 1600 1300 l 1,6,-1
- 400 1300 l 1,7,-1
- 400 200 l 1,8,-1
- 800 200 l 1,9,-1
- 800 850 l 1,10,-1
- 1600 850 l 1,11,-1
- 1600 -600 l 1,12,-1
- 1400 -600 l 1,13,14
- 800 -400 800 -400 200 -600 c 1,15,-1
- 200 -400 l 1,16,17
- 800 -200 800 -200 1400 -400 c 1,18,-1
- 1400 650 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A0C.11A3C.11A03
-Encoding: 1115745 -1 775
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 1300 m 1,0,-1
- 1000 1300 l 1,1,-1
- 1000 200 l 1,2,-1
- 1400 200 l 1,3,-1
- 1400 1300 l 1,0,-1
-1500 -600 m 1,4,-1
- 1400 -600 l 1,5,6
- 800 -400 800 -400 200 -600 c 1,7,-1
- 200 -400 l 1,8,9
- 800 -200 800 -200 1400 -400 c 1,10,-1
- 1400 0 l 1,11,-1
- 800 0 l 1,12,-1
- 800 1300 l 1,13,-1
- 400 1300 l 1,14,-1
- 400 0 l 1,15,-1
- 200 0 l 1,16,-1
- 200 1500 l 1,17,-1
- 1600 1500 l 1,18,-1
- 1600 -1100 l 1,19,-1
- 200 -1100 l 1,20,-1
- 200 -900 l 1,21,-1
- 1500 -900 l 1,22,-1
- 1500 -600 l 1,4,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
 StartChar: u11A3E.low
-Encoding: 1115873 -1 776
+Encoding: 1115873 -1 753
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26258,44 +25529,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A0B.11A3E.11A03
-Encoding: 1115926 -1 777
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1400 -500 m 1,0,-1
- 1400 -300 l 1,1,-1
- 1000 -400 l 1,2,-1
- 1400 -500 l 1,0,-1
-1500 -733 m 1,3,-1
- 500 -400 l 1,4,-1
- 1400 -100 l 1,5,-1
- 1400 1300 l 1,6,-1
- 1000 1300 l 1,7,-1
- 1000 0 l 1,8,-1
- 200 0 l 1,9,-1
- 200 800 l 1,10,-1
- 400 800 l 1,11,-1
- 400 200 l 1,12,-1
- 800 200 l 1,13,-1
- 800 1300 l 1,14,-1
- 200 1300 l 1,15,-1
- 200 1500 l 1,16,-1
- 1600 1500 l 1,17,-1
- 1600 -1200 l 1,18,-1
- 200 -1200 l 1,19,-1
- 200 -1000 l 1,20,-1
- 1500 -1000 l 5,21,-1
- 1500 -733 l 1,3,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
 StartChar: u11A0B.squished
-Encoding: 1116447 -1 778
+Encoding: 1116447 -1 754
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26322,7 +25557,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A0D.squished
-Encoding: 1116451 -1 779
+Encoding: 1116451 -1 755
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26347,7 +25582,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A0F.squished
-Encoding: 1116456 -1 780
+Encoding: 1116456 -1 756
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26371,7 +25606,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A12.squished
-Encoding: 1116457 -1 781
+Encoding: 1116457 -1 757
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26395,7 +25630,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A13.squished
-Encoding: 1116458 -1 782
+Encoding: 1116458 -1 758
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26421,7 +25656,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A19.squished
-Encoding: 1116460 -1 783
+Encoding: 1116460 -1 759
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26445,7 +25680,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1B.squished
-Encoding: 1116463 -1 784
+Encoding: 1116463 -1 760
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26469,7 +25704,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1D.squished
-Encoding: 1116466 -1 785
+Encoding: 1116466 -1 761
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26498,7 +25733,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A20.squished
-Encoding: 1116467 -1 786
+Encoding: 1116467 -1 762
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26519,7 +25754,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A22.squished
-Encoding: 1116470 -1 787
+Encoding: 1116470 -1 763
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26544,7 +25779,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A23.squished
-Encoding: 1116473 -1 788
+Encoding: 1116473 -1 764
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26576,7 +25811,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A25.squished
-Encoding: 1116475 -1 789
+Encoding: 1116475 -1 765
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26606,7 +25841,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A31.squished
-Encoding: 1116476 -1 790
+Encoding: 1116476 -1 766
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26631,49 +25866,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A3A.11A1D.11A04
-Encoding: 1116559 -1 791
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-800 400 m 1,0,-1
- 400 400 l 1,1,-1
- 400 200 l 1,2,-1
- 800 200 l 1,3,-1
- 800 400 l 1,0,-1
-1600 1300 m 1,4,-1
- 1000 1300 l 1,5,-1
- 1000 1000 l 1,6,-1
- 1600 1000 l 1,7,-1
- 1600 0 l 1,8,-1
- 1400 0 l 1,9,-1
- 1400 400 l 1,10,-1
- 1000 400 l 1,11,-1
- 1000 0 l 1,12,-1
- 200 0 l 1,13,-1
- 200 600 l 1,14,-1
- 1400 600 l 1,15,-1
- 1400 800 l 1,16,-1
- 200 800 l 1,17,-1
- 200 1000 l 1,18,-1
- 800 1000 l 1,19,-1
- 800 1300 l 1,20,-1
- 200 1300 l 1,21,-1
- 200 1500 l 1,22,-1
- 1500 1500 l 1,23,-1
- 1500 1800 l 1,24,-1
- 200 1800 l 1,25,-1
- 200 2000 l 1,26,-1
- 1600 2000 l 1,27,-1
- 1600 1300 l 1,4,-1
-EndSplineSet
-EndChar
-
 StartChar: u11A2C_u11A47
-Encoding: 1116571 -1 792
+Encoding: 1116571 -1 767
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -26697,7 +25891,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A10.squished
-Encoding: 1116581 -1 793
+Encoding: 1116581 -1 768
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26722,7 +25916,7 @@ EndSplineSet
 EndChar
 
 StartChar: u11A1E.squished
-Encoding: 1116590 -1 794
+Encoding: 1116590 -1 769
 Width: 0
 GlyphClass: 4
 Flags: W
@@ -26741,49 +25935,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A2C.11A0B.11A04
-Encoding: 1116649 -1 795
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1600 0 m 1,0,-1
- 1400 0 l 1,1,-1
- 1400 800 l 1,2,-1
- 1000 800 l 1,3,-1
- 1000 0 l 1,4,-1
- 200 0 l 1,5,-1
- 200 550 l 1,6,-1
- 400 550 l 1,7,-1
- 400 200 l 1,8,-1
- 800 200 l 1,9,-1
- 800 800 l 1,10,-1
- 200 800 l 1,11,-1
- 200 1000 l 1,12,-1
- 800 1000 l 1,13,-1
- 800 1300 l 1,14,-1
- 400 1300 l 1,15,-1
- 400 1100 l 1,16,-1
- 200 1100 l 1,17,-1
- 200 1500 l 1,18,-1
- 1000 1500 l 1,19,-1
- 1000 1000 l 1,20,-1
- 1400 1000 l 1,21,-1
- 1400 1500 l 1,22,-1
- 1500 1500 l 1,23,-1
- 1500 1800 l 1,24,-1
- 200 1800 l 1,25,-1
- 200 2000 l 1,26,-1
- 1600 2000 l 1,27,-1
- 1600 0 l 1,0,-1
-EndSplineSet
-LCarets2: 1 0
-EndChar
-
 StartChar: u11A30_u11A47
-Encoding: 1116675 -1 796
+Encoding: 1116675 -1 770
 Width: 1800
 GlyphClass: 2
 Flags: W
@@ -26804,46 +25957,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: u11A30.11A0B.11A04
-Encoding: 1116768 -1 797
-Width: 1800
-GlyphClass: 2
-Flags: W
-LayerCount: 2
-Fore
-SplineSet
-1600 0 m 1,0,-1
- 1400 0 l 1,1,-1
- 1400 800 l 1,2,-1
- 1000 800 l 1,3,-1
- 1000 0 l 1,4,-1
- 200 0 l 1,5,-1
- 200 550 l 1,6,-1
- 400 550 l 1,7,-1
- 400 200 l 1,8,-1
- 800 200 l 1,9,-1
- 800 800 l 1,10,-1
- 200 800 l 1,11,-1
- 200 1000 l 1,12,-1
- 1400 1000 l 1,13,-1
- 400 1300 l 1,14,-1
- 400 1100 l 1,15,-1
- 200 1100 l 1,16,-1
- 200 1500 l 1,17,-1
- 400 1500 l 1,18,-1
- 1400 1200 l 1,19,-1
- 1400 1500 l 1,20,-1
- 1500 1500 l 1,21,-1
- 1500 1800 l 1,22,-1
- 200 1800 l 1,23,-1
- 200 2000 l 1,24,-1
- 1600 2000 l 1,25,-1
- 1600 0 l 1,0,-1
-EndSplineSet
-EndChar
-
 StartChar: u11A47_u11A00
-Encoding: 1116799 -1 798
+Encoding: 1116799 -1 771
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26877,7 +25992,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0B
-Encoding: 1116800 -1 799
+Encoding: 1116800 -1 772
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26909,7 +26024,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0C
-Encoding: 1116801 -1 800
+Encoding: 1116801 -1 773
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26940,7 +26055,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0D
-Encoding: 1116802 -1 801
+Encoding: 1116802 -1 774
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -26971,7 +26086,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0E
-Encoding: 1116803 -1 802
+Encoding: 1116803 -1 775
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27006,7 +26121,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0F
-Encoding: 1116804 -1 803
+Encoding: 1116804 -1 776
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27036,7 +26151,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A10
-Encoding: 1116805 -1 804
+Encoding: 1116805 -1 777
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27067,7 +26182,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A11
-Encoding: 1116806 -1 805
+Encoding: 1116806 -1 778
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27099,7 +26214,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A12
-Encoding: 1116807 -1 806
+Encoding: 1116807 -1 779
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27129,7 +26244,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A13
-Encoding: 1116808 -1 807
+Encoding: 1116808 -1 780
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27161,7 +26276,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A14
-Encoding: 1116809 -1 808
+Encoding: 1116809 -1 781
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27191,7 +26306,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A15
-Encoding: 1116810 -1 809
+Encoding: 1116810 -1 782
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27223,7 +26338,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A16
-Encoding: 1116811 -1 810
+Encoding: 1116811 -1 783
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27249,7 +26364,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A17
-Encoding: 1116812 -1 811
+Encoding: 1116812 -1 784
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27277,7 +26392,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A18
-Encoding: 1116813 -1 812
+Encoding: 1116813 -1 785
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27307,7 +26422,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A19
-Encoding: 1116814 -1 813
+Encoding: 1116814 -1 786
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27337,7 +26452,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1A
-Encoding: 1116815 -1 814
+Encoding: 1116815 -1 787
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27369,7 +26484,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1B
-Encoding: 1116816 -1 815
+Encoding: 1116816 -1 788
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27399,7 +26514,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1C
-Encoding: 1116817 -1 816
+Encoding: 1116817 -1 789
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27434,7 +26549,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1D
-Encoding: 1116818 -1 817
+Encoding: 1116818 -1 790
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27469,7 +26584,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1E
-Encoding: 1116819 -1 818
+Encoding: 1116819 -1 791
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27495,7 +26610,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A1F
-Encoding: 1116820 -1 819
+Encoding: 1116820 -1 792
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27526,7 +26641,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A20
-Encoding: 1116821 -1 820
+Encoding: 1116821 -1 793
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27553,7 +26668,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A21
-Encoding: 1116822 -1 821
+Encoding: 1116822 -1 794
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27582,7 +26697,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A22
-Encoding: 1116823 -1 822
+Encoding: 1116823 -1 795
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27613,7 +26728,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A23
-Encoding: 1116824 -1 823
+Encoding: 1116824 -1 796
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27651,7 +26766,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A24
-Encoding: 1116825 -1 824
+Encoding: 1116825 -1 797
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27690,7 +26805,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A25
-Encoding: 1116826 -1 825
+Encoding: 1116826 -1 798
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27726,7 +26841,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A26
-Encoding: 1116827 -1 826
+Encoding: 1116827 -1 799
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27779,7 +26894,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A27
-Encoding: 1116828 -1 827
+Encoding: 1116828 -1 800
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27814,7 +26929,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A28
-Encoding: 1116829 -1 828
+Encoding: 1116829 -1 801
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27844,7 +26959,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A29
-Encoding: 1116830 -1 829
+Encoding: 1116830 -1 802
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27876,7 +26991,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2A
-Encoding: 1116831 -1 830
+Encoding: 1116831 -1 803
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27906,7 +27021,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2B
-Encoding: 1116832 -1 831
+Encoding: 1116832 -1 804
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27940,7 +27055,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2C
-Encoding: 1116833 -1 832
+Encoding: 1116833 -1 805
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -27970,7 +27085,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2D
-Encoding: 1116834 -1 833
+Encoding: 1116834 -1 806
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28014,7 +27129,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2E
-Encoding: 1116835 -1 834
+Encoding: 1116835 -1 807
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28049,7 +27164,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A2F
-Encoding: 1116836 -1 835
+Encoding: 1116836 -1 808
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28084,7 +27199,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A30
-Encoding: 1116837 -1 836
+Encoding: 1116837 -1 809
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28112,7 +27227,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A31
-Encoding: 1116838 -1 837
+Encoding: 1116838 -1 810
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -28144,7 +27259,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A32
-Encoding: 1116839 -1 838
+Encoding: 1116839 -1 811
 Width: 0
 GlyphClass: 2
 Flags: W
