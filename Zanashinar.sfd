@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518279452
+ModificationTime: 1518279710
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -69,6 +69,7 @@ Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' squished form" { "'ccmp' squished form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
+Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' above" { "'mkmk' above-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined consonant or vowel length mark" { "'mark' subjoined consonant or vowel length mark-1"  } ['mark' ('DFLT' <'dflt' > ) ]
@@ -147,7 +148,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 72208 16 9
+WinInfo: 8176 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -5205,6 +5206,7 @@ SplineSet
  733 1050 l 1,177,172
  733 994 733 994 745 945 c 1,173,-1
 EndSplineSet
+Substitution2: "'ccmp' default ignorable-1" uni200B
 EndChar
 
 StartChar: u11A33.wide
