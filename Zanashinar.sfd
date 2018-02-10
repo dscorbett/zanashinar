@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518143255
+ModificationTime: 1518276695
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -70,10 +70,10 @@ Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' above" { "'mkmk' above-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined vowel or medial consonant-1"  } ['mark' ('DFLT' <'dflt' > ) ]
-Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined consonant or vowel length mark" { "'mark' subjoined consonant or vowel length mark-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' subjoined consonant or vowel length mark" { "'mkmk' subjoined consonant or vowel length mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
+Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined vowel or medial consonant-1"  } ['mark' ('DFLT' <'dflt' > ) ]
+Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'ccmp' lower form-1" 0 0 0 1
@@ -146,7 +146,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 72176 16 9
+WinInfo: 1116704 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3077,6 +3077,7 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "above-mkmk" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3094,6 +3095,7 @@ Encoding: 72194 72194 119
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -100 0 mark 0
 AnchorPoint: "vowel-below" -200 0 mark 0
 LayerCount: 2
 Fore
@@ -3112,6 +3114,7 @@ Encoding: 72195 72195 120
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 AnchorPoint: "vowel-below" -200 0 mark 0
 LayerCount: 2
 Fore
@@ -3133,6 +3136,8 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "above-mkmk" -900 1900 basemark 0
+AnchorPoint: "above-mkmk" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3152,6 +3157,7 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "above-mkmk" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3173,6 +3179,8 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "above-mkmk" -900 1900 basemark 0
+AnchorPoint: "above-mkmk" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3234,6 +3242,7 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "above-mkmk" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5234,8 +5243,8 @@ Encoding: 1114115 -1 190
 Width: 0
 GlyphClass: 2
 Flags: W
-AnchorPoint: "vowel-below" -200 0 mark 0
 AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-below" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5256,6 +5265,7 @@ Encoding: 1114116 -1 191
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5290,6 +5300,7 @@ Encoding: 1114117 -1 192
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5344,6 +5355,7 @@ Encoding: 1114118 -1 193
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5380,6 +5392,7 @@ Encoding: 1114119 -1 194
 Width: 0
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5406,18 +5419,19 @@ EndChar
 
 StartChar: u11A01.wide
 Encoding: 1114171 -1 195
-Width: 2400
+Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
-2200 1500 m 1025,0,-1
-1200 2100 m 256,1,2
- 1814 2100 1814 2100 2200 1500 c 1,3,4
- 1529 1850 1529 1850 1200 1850 c 256,5,6
- 871 1850 871 1850 200 1600 c 1,7,8
- 586 2100 586 2100 1200 2100 c 256,1,2
+-200 1500 m 1025,0,-1
+-1200 2100 m 256,1,2
+ -586 2100 -586 2100 -200 1500 c 1,3,4
+ -871 1850 -871 1850 -1200 1850 c 256,5,6
+ -1529 1850 -1529 1850 -2200 1600 c 1,7,8
+ -1814 2100 -1814 2100 -1200 2100 c 256,1,2
 EndSplineSet
 EndChar
 
@@ -5426,6 +5440,7 @@ Encoding: 1114253 -1 196
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5442,6 +5457,7 @@ Encoding: 1114293 -1 197
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5476,8 +5492,8 @@ Encoding: 1114540 -1 199
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel-below" -200 0 mark 0
 AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-below" -200 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5496,6 +5512,7 @@ Encoding: 1114704 -1 200
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5514,6 +5531,7 @@ Encoding: 1114786 -1 201
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5532,6 +5550,7 @@ Encoding: 1114806 -1 202
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5550,6 +5569,7 @@ Encoding: 1114950 -1 203
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5570,6 +5590,7 @@ Encoding: 1115032 -1 204
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5592,6 +5613,7 @@ Encoding: 1115114 -1 205
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5614,6 +5636,7 @@ Encoding: 1115154 -1 206
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5636,6 +5659,7 @@ Encoding: 1115155 -1 207
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5658,6 +5682,7 @@ Encoding: 1115195 -1 208
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -900 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5680,6 +5705,7 @@ Encoding: 1115483 -1 209
 Width: 0
 GlyphClass: 4
 Flags: W
+AnchorPoint: "above" -1200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6178,12 +6204,12 @@ EndChar
 StartChar: u11A47_u11A00
 Encoding: 1116799 -1 228
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
-AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -350 mark 0
+AnchorPoint: "vowel-length" 300 -350 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6206,18 +6232,17 @@ SplineSet
  -2200 -200 l 1,0,-1
 EndSplineSet
 Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A00
-LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0B
 Encoding: 1116800 -1 229
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6244,12 +6269,12 @@ EndChar
 StartChar: u11A47_u11A0C
 Encoding: 1116801 -1 230
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6275,12 +6300,12 @@ EndChar
 StartChar: u11A47_u11A0D
 Encoding: 1116802 -1 231
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6306,12 +6331,12 @@ EndChar
 StartChar: u11A47_u11A0E
 Encoding: 1116803 -1 232
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6341,12 +6366,12 @@ EndChar
 StartChar: u11A47_u11A0F
 Encoding: 1116804 -1 233
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6371,12 +6396,12 @@ EndChar
 StartChar: u11A47_u11A10
 Encoding: 1116805 -1 234
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6402,12 +6427,12 @@ EndChar
 StartChar: u11A47_u11A11
 Encoding: 1116806 -1 235
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6434,12 +6459,12 @@ EndChar
 StartChar: u11A47_u11A12
 Encoding: 1116807 -1 236
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6458,18 +6483,17 @@ SplineSet
  -1600 -200 l 1,0,-1
 EndSplineSet
 Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A12
-LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A13
 Encoding: 1116808 -1 237
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6496,12 +6520,12 @@ EndChar
 StartChar: u11A47_u11A14
 Encoding: 1116809 -1 238
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 200 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 200 -350 mark 0
 AnchorPoint: "vowel-length" 200 -350 mark 0
-AnchorPoint: "vowel-length-sub" 200 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6526,12 +6550,12 @@ EndChar
 StartChar: u11A47_u11A15
 Encoding: 1116810 -1 239
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 220 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 220 -350 mark 0
 AnchorPoint: "vowel-length" 220 -350 mark 0
-AnchorPoint: "vowel-length-sub" 220 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6558,12 +6582,12 @@ EndChar
 StartChar: u11A47_u11A16
 Encoding: 1116811 -1 240
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 150 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 150 -350 mark 0
 AnchorPoint: "vowel-length" 150 -350 mark 0
-AnchorPoint: "vowel-length-sub" 150 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6584,12 +6608,12 @@ EndChar
 StartChar: u11A47_u11A17
 Encoding: 1116812 -1 241
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 150 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 150 -350 mark 0
 AnchorPoint: "vowel-length" 150 -350 mark 0
-AnchorPoint: "vowel-length-sub" 150 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6612,12 +6636,12 @@ EndChar
 StartChar: u11A47_u11A18
 Encoding: 1116813 -1 242
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6642,12 +6666,12 @@ EndChar
 StartChar: u11A47_u11A19
 Encoding: 1116814 -1 243
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6672,12 +6696,12 @@ EndChar
 StartChar: u11A47_u11A1A
 Encoding: 1116815 -1 244
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6704,12 +6728,12 @@ EndChar
 StartChar: u11A47_u11A1B
 Encoding: 1116816 -1 245
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6734,12 +6758,12 @@ EndChar
 StartChar: u11A47_u11A1C
 Encoding: 1116817 -1 246
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6769,12 +6793,12 @@ EndChar
 StartChar: u11A47_u11A1D
 Encoding: 1116818 -1 247
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6804,12 +6828,12 @@ EndChar
 StartChar: u11A47_u11A1E
 Encoding: 1116819 -1 248
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6830,12 +6854,12 @@ EndChar
 StartChar: u11A47_u11A1F
 Encoding: 1116820 -1 249
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6861,12 +6885,12 @@ EndChar
 StartChar: u11A47_u11A20
 Encoding: 1116821 -1 250
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6888,12 +6912,12 @@ EndChar
 StartChar: u11A47_u11A21
 Encoding: 1116822 -1 251
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6917,12 +6941,12 @@ EndChar
 StartChar: u11A47_u11A22
 Encoding: 1116823 -1 252
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6948,12 +6972,12 @@ EndChar
 StartChar: u11A47_u11A23
 Encoding: 1116824 -1 253
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6986,12 +7010,12 @@ EndChar
 StartChar: u11A47_u11A24
 Encoding: 1116825 -1 254
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7025,12 +7049,12 @@ EndChar
 StartChar: u11A47_u11A25
 Encoding: 1116826 -1 255
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7061,12 +7085,12 @@ EndChar
 StartChar: u11A47_u11A26
 Encoding: 1116827 -1 256
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7114,12 +7138,12 @@ EndChar
 StartChar: u11A47_u11A27
 Encoding: 1116828 -1 257
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7149,12 +7173,12 @@ EndChar
 StartChar: u11A47_u11A28
 Encoding: 1116829 -1 258
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7179,12 +7203,12 @@ EndChar
 StartChar: u11A47_u11A29
 Encoding: 1116830 -1 259
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7211,12 +7235,12 @@ EndChar
 StartChar: u11A47_u11A2A
 Encoding: 1116831 -1 260
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7241,12 +7265,12 @@ EndChar
 StartChar: u11A47_u11A2B
 Encoding: 1116832 -1 261
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7275,12 +7299,12 @@ EndChar
 StartChar: u11A47_u11A2C
 Encoding: 1116833 -1 262
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7305,12 +7329,12 @@ EndChar
 StartChar: u11A47_u11A2D
 Encoding: 1116834 -1 263
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7349,12 +7373,12 @@ EndChar
 StartChar: u11A47_u11A2E
 Encoding: 1116835 -1 264
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7384,12 +7408,12 @@ EndChar
 StartChar: u11A47_u11A2F
 Encoding: 1116836 -1 265
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7419,12 +7443,12 @@ EndChar
 StartChar: u11A47_u11A30
 Encoding: 1116837 -1 266
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7447,12 +7471,12 @@ EndChar
 StartChar: u11A47_u11A31
 Encoding: 1116838 -1 267
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-length-sub" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7479,12 +7503,12 @@ EndChar
 StartChar: u11A47_u11A32
 Encoding: 1116839 -1 268
 Width: 0
-GlyphClass: 2
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 -1700 basemark 0
+AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 AnchorPoint: "vowel-below" 300 -350 mark 0
 AnchorPoint: "vowel-length" 300 -350 mark 0
-AnchorPoint: "vowel-length-sub" 300 -2050 basemark 0
 LayerCount: 2
 Fore
 SplineSet
