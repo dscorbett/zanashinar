@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518276695
+ModificationTime: 1518278300
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ Lookup: 1 0 0 "null" { } []
 Lookup: 6 0 0 "'ccmp' lower form" { "'ccmp' lower form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "lower form" { "lower form-1" ("low") } []
 Lookup: 6 0 0 "'ccmp' head form" { "'ccmp' head form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "head form" { "head form-1"  } []
+Lookup: 4 0 0 "head form" { "head form-1"  } []
 Lookup: 6 0 0 "'ccmp' squished form" { "'ccmp' squished form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 6 8 0 "'ccmp' wide form" { "'ccmp' wide form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
@@ -76,13 +76,6 @@ Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined
 Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: coverage "'ccmp' lower form-1" 0 0 0 1
- 1 1 0
-  Coverage: 6 u11A3E
-  BCoverage: 272 u11A00 u11A0B u11A0C u11A0D u11A0E u11A0F u11A10 u11A11 u11A12 u11A13 u11A15 u11A16 u11A17 u11A18 u11A19 u11A1A u11A1B u11A1C u11A1D u11A1E u11A1F u11A20 u11A21 u11A22 u11A23 u11A24 u11A25 u11A26 u11A27 u11A28 u11A29 u11A2A u11A2B u11A2C u11A2E u11A2F u11A30 u11A31 u11A32
- 1
-  SeqLookup: 0 "lower form"
-EndFPST
 ChainSub2: class "'ccmp' head form-1" 3 3 3 2
   Class: 13 u11A2C u11A30
   Class: 6 u11A47
@@ -96,15 +89,22 @@ ChainSub2: class "'ccmp' head form-1" 3 3 3 2
   FClsList:
  1
   SeqLookup: 0 "null"
- 1 0 1
-  ClsList: 1
+ 2 0 0
+  ClsList: 1 2
   BClsList:
-  FClsList: 2
+  FClsList:
  1
   SeqLookup: 0 "head form"
   ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: coverage "'ccmp' lower form-1" 0 0 0 1
+ 1 1 0
+  Coverage: 6 u11A3E
+  BCoverage: 272 u11A00 u11A0B u11A0C u11A0D u11A0E u11A0F u11A10 u11A11 u11A12 u11A13 u11A15 u11A16 u11A17 u11A18 u11A19 u11A1A u11A1B u11A1C u11A1D u11A1E u11A1F u11A20 u11A21 u11A22 u11A23 u11A24 u11A25 u11A26 u11A27 u11A28 u11A29 u11A2A u11A2B u11A2C u11A2E u11A2F u11A30 u11A31 u11A32
+ 1
+  SeqLookup: 0 "lower form"
 EndFPST
 ChainSub2: coverage "'ccmp' squished form-1" 0 0 0 1
  1 1 0
@@ -146,7 +146,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116704 16 9
+WinInfo: 72176 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3095,7 +3095,7 @@ Encoding: 72194 72194 119
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel-below-mkmk" -100 0 mark 0
+AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
 AnchorPoint: "vowel-below" -200 0 mark 0
 LayerCount: 2
 Fore
@@ -4274,7 +4274,6 @@ SplineSet
  200 1500 l 1,11,-1
  1000 1500 l 1,0,-1
 EndSplineSet
-Substitution2: "head form-1" u11A2C_u11A47
 EndChar
 
 StartChar: u11A2D
@@ -4405,7 +4404,6 @@ SplineSet
  200 1500 l 1,9,-1
  400 1500 l 1,0,-1
 EndSplineSet
-Substitution2: "head form-1" u11A30_u11A47
 EndChar
 
 StartChar: u11A31
@@ -6127,6 +6125,7 @@ SplineSet
  1600 800 l 1,11,-1
  800 800 l 1,0,-1
 EndSplineSet
+Ligature2: "head form-1" u11A2C u11A47
 EndChar
 
 StartChar: u11A10.squished
@@ -6199,6 +6198,7 @@ SplineSet
  1600 1000 l 1,9,-1
  1400 1000 l 1,0,-1
 EndSplineSet
+Ligature2: "head form-1" u11A30 u11A47
 EndChar
 
 StartChar: u11A47_u11A00
@@ -6360,7 +6360,6 @@ SplineSet
  -1400 -1100 l 1,12,-1
 EndSplineSet
 Ligature2: "'rlig' subjoined consonant-1" u11A47 u11A0E
-LCarets2: 1 0
 EndChar
 
 StartChar: u11A47_u11A0F
