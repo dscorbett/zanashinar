@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518280407
+ModificationTime: 1518283256
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -64,20 +64,36 @@ Lookup: 6 0 0 "'ccmp' lower form" { "'ccmp' lower form-1"  } ['ccmp' ('DFLT' <'d
 Lookup: 1 0 0 "lower form" { "lower form-1" ("low") } []
 Lookup: 6 0 0 "'ccmp' head form" { "'ccmp' head form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "head form" { "head form-1" ("head") } []
-Lookup: 6 0 0 "'ccmp' wide form" { "'ccmp' wide form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
 Lookup: 6 0 0 "'ccmp' squished form" { "'ccmp' squished form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 256 0 "'ccmp' wide form above" { "'ccmp' wide form above-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'ccmp' wide form below" { "'ccmp' wide form below-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' above" { "'mkmk' above-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined consonant or vowel length mark" { "'mark' subjoined consonant or vowel length mark-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' subjoined consonant or vowel length mark" { "'mkmk' subjoined consonant or vowel length mark-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined vowel or medial consonant-1"  } ['mark' ('DFLT' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'dflt' > ) ]
-MarkAttachClasses: 1
+MarkAttachClasses: 2
+"widenable-above" 55 u11A01 u11A04 u11A05 u11A06 u11A07 u11A08 u11A09 u11A0A
 DEI: 91125
+ContextSub2: coverage "'ccmp' wide form below-1" 0 0 0 1
+ 2 0 0
+  Coverage: 6 u11A00
+  Coverage: 27 u11A02 u11A03 u11A33 u11A34
+ 1
+  SeqLookup: 1 "wide form"
+EndFPST
+ContextSub2: coverage "'ccmp' wide form above-1" 0 0 0 1
+ 2 0 0
+  Coverage: 6 u11A00
+  Coverage: 34 u11A01 u11A04 u11A05 u11A06 u11A09
+ 1
+  SeqLookup: 1 "wide form"
+EndFPST
 ChainSub2: class "'ccmp' head form-1" 3 3 3 2
   Class: 13 u11A2C u11A30
   Class: 6 u11A47
@@ -115,13 +131,6 @@ ChainSub2: coverage "'ccmp' squished form-1" 0 0 0 1
  1
   SeqLookup: 0 "squished form"
 EndFPST
-ChainSub2: coverage "'ccmp' wide form-1" 0 0 0 1
- 1 1 0
-  Coverage: 62 u11A01 u11A02 u11A03 u11A33 u11A34 u11A35 u11A36 u11A37 u11A38
-  BCoverage: 6 u11A00
- 1
-  SeqLookup: 0 "wide form"
-EndFPST
 ShortTable: maxp 16
   1
   0
@@ -148,7 +157,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114096 16 9
+WinInfo: 32 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3151,6 +3160,7 @@ SplineSet
  -1600 1800 l 1,5,-1
  -1600 2000 l 1,0,-1
 EndSplineSet
+Substitution2: "wide form-1" u11A04.wide
 EndChar
 
 StartChar: u11A05
@@ -3173,6 +3183,7 @@ SplineSet
  -950 1400 l 1,7,-1
  -950 1800 l 1,0,-1
 EndSplineSet
+Substitution2: "wide form-1" u11A05.wide
 EndChar
 
 StartChar: u11A06
@@ -3198,6 +3209,7 @@ SplineSet
  -900 1500 l 1,9,-1
  -1050 1800 l 1,0,-1
 EndSplineSet
+Substitution2: "wide form-1" u11A06.wide
 EndChar
 
 StartChar: u11A07
@@ -3254,6 +3266,7 @@ SplineSet
  -1400 2100 -1400 2100 -900 2100 c 256,7,0
  -400 2100 -400 2100 -200 1600 c 1,1,2
 EndSplineSet
+Substitution2: "wide form-1" u11A09.wide
 EndChar
 
 StartChar: u11A0A
@@ -4532,7 +4545,6 @@ SplineSet
  -1050 2188 -1050 2188 -1006 2144 c 128,-1,31
  -962 2100 -962 2100 -900 2100 c 256,20,21
 EndSplineSet
-Substitution2: "wide form-1" u11A35.wide
 EndChar
 
 StartChar: u11A36
@@ -4589,7 +4601,6 @@ SplineSet
  -769 2998 -769 2998 -723 2969 c 0,65,32
  -640 2908 -640 2908 -650 2800 c 1,33,34
 EndSplineSet
-Substitution2: "wide form-1" u11A36.wide
 EndChar
 
 StartChar: u11A37
@@ -4628,7 +4639,6 @@ SplineSet
  -769 2448 -769 2448 -723 2419 c 0,41,8
  -640 2358 -640 2358 -650 2250 c 1,9,10
 EndSplineSet
-Substitution2: "wide form-1" u11A37.wide
 EndChar
 
 StartChar: u11A38
@@ -4660,7 +4670,6 @@ SplineSet
  -1050 1888 -1050 1888 -1006 1844 c 128,-1,23
  -962 1800 -962 1800 -900 1800 c 256,12,13
 EndSplineSet
-Substitution2: "wide form-1" u11A38.wide
 EndChar
 
 StartChar: u11A39
