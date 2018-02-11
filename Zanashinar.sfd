@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518370106
+ModificationTime: 1518370793
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -109,7 +109,7 @@ ContextSub2: coverage "'rclt' ai/au form-1" 0 0 0 1
 EndFPST
 ContextSub2: coverage "'rclt' wide form below-1" 0 0 0 1
  2 0 0
-  Coverage: 6 u11A00
+  Coverage: 20 u11A00 u11A47_u11A00
   Coverage: 27 u11A02 u11A03 u11A33 u11A34
  1
   SeqLookup: 1 "wide form"
@@ -184,7 +184,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116416 16 9
+WinInfo: 72192 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
