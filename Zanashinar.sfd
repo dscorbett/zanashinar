@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518390050
+ModificationTime: 1518391584
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -72,7 +72,7 @@ Lookup: 6 0 0 "'rclt' squished form" { "'rclt' squished form-1"  } ['rclt' ('DFL
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccmp' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 5 768 0 "'rclt' ai form for consonant" { "'rclt' ai form for consonant-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
-Lookup: 5 0 0 "'rclt' ai/au form for vowel" { "'rclt' ai/au form for vowel-1"  "'rclt' ai/au form for vowel-2"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
+Lookup: 5 131088 0 "'rclt' ai/au form for vowel" { "'rclt' ai/au form for vowel-1"  "'rclt' ai/au form for vowel-2"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "ai form" { "ai form-1" ("ai") } []
 Lookup: 1 0 0 "au form" { "au form-1" ("au") } []
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'SAN ' 'dflt' > ) ]
@@ -88,9 +88,10 @@ MarkAttachClasses: 5
 "below-wide" 13 u11A47_u11A00
 "ai-au" 13 u11A07 u11A08
 "below" 13 u11A02 u11A03
-MarkAttachSets: 2
+MarkAttachSets: 3
 "below" 1033 u11A02 u11A03 u11A33 u11A34 u11A3B u11A3C u11A3D u11A3E u11A33.wide u11A34.wide u11A02.wide u11A03.wide u11A3E.low u11A47_u11A0B.squished u11A47_u11A0D.squished u11A47_u11A0F.squished u11A47_u11A12.squished u11A47_u11A13.squished u11A47_u11A19.squished u11A47_u11A1B.squished u11A47_u11A1D.squished u11A47_u11A20.squished u11A47_u11A22.squished u11A47_u11A23.squished u11A47_u11A25.squished u11A47_u11A31.squished u11A47_u11A10.squished u11A47_u11A1E.squished u11A47_u11A00 u11A47_u11A0B u11A47_u11A0C u11A47_u11A0D u11A47_u11A0E u11A47_u11A0F u11A47_u11A10 u11A47_u11A11 u11A47_u11A12 u11A47_u11A13 u11A47_u11A14 u11A47_u11A15 u11A47_u11A16 u11A47_u11A17 u11A47_u11A18 u11A47_u11A19 u11A47_u11A1A u11A47_u11A1B u11A47_u11A1C u11A47_u11A1D u11A47_u11A1E u11A47_u11A1F u11A47_u11A20 u11A47_u11A21 u11A47_u11A22 u11A47_u11A23 u11A47_u11A24 u11A47_u11A25 u11A47_u11A26 u11A47_u11A27 u11A47_u11A28 u11A47_u11A29 u11A47_u11A2A u11A47_u11A2B u11A47_u11A2C u11A47_u11A2D u11A47_u11A2E u11A47_u11A2F u11A47_u11A30 u11A47_u11A31 u11A47_u11A32
 "length-mark" 925 u11A0A u11A47_u11A0B.squished u11A47_u11A0D.squished u11A47_u11A0F.squished u11A47_u11A12.squished u11A47_u11A13.squished u11A47_u11A19.squished u11A47_u11A1B.squished u11A47_u11A1D.squished u11A47_u11A20.squished u11A47_u11A22.squished u11A47_u11A23.squished u11A47_u11A25.squished u11A47_u11A31.squished u11A47_u11A10.squished u11A47_u11A1E.squished u11A47_u11A00 u11A47_u11A0B u11A47_u11A0C u11A47_u11A0D u11A47_u11A0E u11A47_u11A0F u11A47_u11A10 u11A47_u11A11 u11A47_u11A12 u11A47_u11A13 u11A47_u11A14 u11A47_u11A15 u11A47_u11A16 u11A47_u11A17 u11A47_u11A18 u11A47_u11A19 u11A47_u11A1A u11A47_u11A1B u11A47_u11A1C u11A47_u11A1D u11A47_u11A1E u11A47_u11A1F u11A47_u11A20 u11A47_u11A21 u11A47_u11A22 u11A47_u11A23 u11A47_u11A24 u11A47_u11A25 u11A47_u11A26 u11A47_u11A27 u11A47_u11A28 u11A47_u11A29 u11A47_u11A2A u11A47_u11A2B u11A47_u11A2C u11A47_u11A2D u11A47_u11A2E u11A47_u11A2F u11A47_u11A30 u11A47_u11A31 u11A47_u11A32
+"above" 108 u11A01 u11A04 u11A05 u11A06 u11A09 u11A01.wide u11A04.wide u11A05.wide u11A06.wide u11A09.wide u11A07 u11A08
 DEI: 91125
 ContextSub2: coverage "'rclt' ai form for consonant-1" 0 0 0 1
  2 0 0
@@ -197,7 +198,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1114096 16 9
+WinInfo: 72176 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
