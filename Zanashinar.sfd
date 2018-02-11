@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518370793
+ModificationTime: 1518371405
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -4913,6 +4913,7 @@ Encoding: 72255 72255 180
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" 900 1500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5048,6 +5049,7 @@ Encoding: 72261 72261 186
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" 900 1500 basechar 0
 LayerCount: 2
 Fore
 SplineSet
