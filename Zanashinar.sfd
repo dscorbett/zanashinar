@@ -5670,7 +5670,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5698,7 +5700,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5725,7 +5729,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5751,7 +5757,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5777,7 +5785,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5805,7 +5815,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5831,7 +5843,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5857,7 +5871,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5888,7 +5904,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5911,7 +5929,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5938,7 +5958,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5972,7 +5994,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6004,7 +6028,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6058,7 +6084,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6085,7 +6113,9 @@ Width: 0
 GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel-below-mkmk" -200 0 basemark 0
-AnchorPoint: "vowel-below-mkmk" -200 0 mark 0
+AnchorPoint: "vowel-length-sub" 300 -350 basemark 0
+AnchorPoint: "vowel-length-sub" 300 850 mark 0
+AnchorPoint: "vowel-length" 300 850 mark 0
 LayerCount: 2
 Fore
 SplineSet
