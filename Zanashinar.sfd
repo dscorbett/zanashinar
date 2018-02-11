@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518284657
+ModificationTime: 1518366690
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -60,18 +60,18 @@ OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 00000001.02000000.00000040.00000000
 Lookup: 1 0 0 "null" { } []
 Lookup: 2 0 0 "'ccmp' initial ra" { "'ccmp' initial ra-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' lower form" { "'ccmp' lower form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'rclt' lower form" { "'rclt' lower form-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "lower form" { "lower form-1" ("low") } []
-Lookup: 6 0 0 "'ccmp' head form" { "'ccmp' head form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'rclt' head form" { "'rclt' head form-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "head form" { "head form-1" ("head") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'dflt' > ) ]
-Lookup: 6 0 0 "'ccmp' squished form" { "'ccmp' squished form-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 6 0 0 "'rclt' squished form" { "'rclt' squished form-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 256 0 "'ccmp' wide form above" { "'ccmp' wide form above-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
-Lookup: 5 0 0 "'ccmp' wide form below" { "'ccmp' wide form below-1"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 256 0 "'rclt' wide form above" { "'rclt' wide form above-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
+Lookup: 5 0 0 "'rclt' wide form below" { "'rclt' wide form below-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
-Lookup: 5 256 0 "'ccmp' ai/au form" { "'ccmp' ai/au form-1"  "'ccmp' ai/au form-2"  } ['ccmp' ('DFLT' <'dflt' > ) ]
+Lookup: 5 256 0 "'rclt' ai/au form" { "'rclt' ai/au form-1"  "'rclt' ai/au form-2"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "ai form" { "ai form-1" ("ai") } []
 Lookup: 1 0 0 "au form" { "au form-1" ("au") } []
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'dflt' > ) ]
@@ -83,35 +83,35 @@ Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined
 MarkAttachClasses: 2
 "above" 48 u11A01 u11A04 u11A05 u11A06 u11A07 u11A08 u11A09
 DEI: 91125
-ContextSub2: coverage "'ccmp' ai/au form-2" 0 0 0 1
+ContextSub2: coverage "'rclt' ai/au form-2" 0 0 0 1
  2 0 0
   Coverage: 37 u11A01.wide u11A01 u11A06.wide u11A06
   Coverage: 6 u11A08
  1
   SeqLookup: 0 "au form"
 EndFPST
-ContextSub2: coverage "'ccmp' ai/au form-1" 0 0 0 1
+ContextSub2: coverage "'rclt' ai/au form-1" 0 0 0 1
  2 0 0
   Coverage: 65 u11A04.wide u11A04 u11A06.wide u11A06 u11A23 u11A24 u11A25 u11A26
   Coverage: 6 u11A07
  1
   SeqLookup: 0 "ai form"
 EndFPST
-ContextSub2: coverage "'ccmp' wide form below-1" 0 0 0 1
+ContextSub2: coverage "'rclt' wide form below-1" 0 0 0 1
  2 0 0
   Coverage: 6 u11A00
   Coverage: 27 u11A02 u11A03 u11A33 u11A34
  1
   SeqLookup: 1 "wide form"
 EndFPST
-ContextSub2: coverage "'ccmp' wide form above-1" 0 0 0 1
+ContextSub2: coverage "'rclt' wide form above-1" 0 0 0 1
  2 0 0
   Coverage: 6 u11A00
   Coverage: 48 u11A01 u11A04 u11A05 u11A06 u11A07 u11A08 u11A09
  1
   SeqLookup: 1 "wide form"
 EndFPST
-ChainSub2: class "'ccmp' head form-1" 3 3 3 2
+ChainSub2: class "'rclt' head form-1" 3 3 3 2
   Class: 13 u11A2C u11A30
   Class: 6 u11A47
   BClass: 13 u11A2C u11A30
@@ -134,14 +134,14 @@ ChainSub2: class "'ccmp' head form-1" 3 3 3 2
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others" "1" "2"
 EndFPST
-ChainSub2: coverage "'ccmp' lower form-1" 0 0 0 1
+ChainSub2: coverage "'rclt' lower form-1" 0 0 0 1
  1 1 0
   Coverage: 6 u11A3E
   BCoverage: 279 u11A00 u11A0B u11A0C u11A0D u11A0E u11A0F u11A10 u11A11 u11A12 u11A13 u11A15 u11A16 u11A17 u11A18 u11A19 u11A1A u11A1B u11A1C u11A1D u11A1E u11A1F u11A20 u11A21 u11A22 u11A23 u11A24 u11A25 u11A26 u11A27 u11A28 u11A29 u11A2A u11A2B u11A2C u11A2E u11A2F u11A30 u11A31 u11A32 u11A3C
  1
   SeqLookup: 0 "lower form"
 EndFPST
-ChainSub2: coverage "'ccmp' squished form-1" 0 0 0 1
+ChainSub2: coverage "'rclt' squished form-1" 0 0 0 1
  1 1 0
   Coverage: 573 u11A47_u11A00 u11A47_u11A0B u11A47_u11A0C u11A47_u11A0D u11A47_u11A0E u11A47_u11A0F u11A47_u11A10 u11A47_u11A11 u11A47_u11A12 u11A47_u11A13 u11A47_u11A14 u11A47_u11A15 u11A47_u11A16 u11A47_u11A17 u11A47_u11A18 u11A47_u11A19 u11A47_u11A1A u11A47_u11A1B u11A47_u11A1C u11A47_u11A1D u11A47_u11A1E u11A47_u11A1F u11A47_u11A20 u11A47_u11A21 u11A47_u11A22 u11A47_u11A23 u11A47_u11A24 u11A47_u11A25 u11A47_u11A26 u11A47_u11A27 u11A47_u11A28 u11A47_u11A29 u11A47_u11A2A u11A47_u11A2B u11A47_u11A2C u11A47_u11A2D u11A47_u11A2E u11A47_u11A2F u11A47_u11A30 u11A47_u11A31 u11A47_u11A32
   BCoverage: 30 u11A2C.head u11A30.head u11A3A
@@ -174,7 +174,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 72176 16 9
+WinInfo: 72192 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
