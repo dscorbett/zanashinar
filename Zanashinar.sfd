@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518371405
+ModificationTime: 1518376703
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -71,7 +71,8 @@ Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccm
 Lookup: 5 256 0 "'rclt' wide form above" { "'rclt' wide form above-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 5 1024 0 "'rclt' wide form below" { "'rclt' wide form below-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
-Lookup: 5 256 0 "'rclt' ai/au form" { "'rclt' ai/au form-1"  "'rclt' ai/au form-2"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
+Lookup: 5 768 0 "'rclt' ai form for consonant" { "'rclt' ai form for consonant-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
+Lookup: 5 0 0 "'rclt' ai/au form for vowel" { "'rclt' ai/au form for vowel-1"  "'rclt' ai/au form for vowel-2"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "ai form" { "ai form-1" ("ai") } []
 Lookup: 1 0 0 "au form" { "au form-1" ("au") } []
 Lookup: 260 0 0 "'mark' above" { "'mark' above-1"  } ['mark' ('DFLT' <'SAN ' 'dflt' > ) ]
@@ -82,10 +83,18 @@ Lookup: 260 0 0 "'mark' subjoined vowel or medial consonant" { "'mark' subjoined
 Lookup: 262 0 0 "'mkmk' subjoined vowel or medial consonant" { "'mkmk' subjoined vowel or medial consonant-1"  } ['mkmk' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 263 512 0 "'kern' wide form" { "'kern' wide form-1"  } ['kern' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 257 0 0 "blank space on the left" { "blank space on the left-1"  } []
-MarkAttachClasses: 3
-"above" 48 u11A01 u11A04 u11A05 u11A06 u11A07 u11A08 u11A09
+MarkAttachClasses: 4
+"above" 34 u11A01 u11A04 u11A05 u11A06 u11A09
 "below-wide" 13 u11A47_u11A00
+"ai-au" 13 u11A07 u11A08
 DEI: 91125
+ContextSub2: coverage "'rclt' ai form for consonant-1" 0 0 0 1
+ 2 0 0
+  Coverage: 27 u11A23 u11A24 u11A25 u11A26
+  Coverage: 6 u11A07
+ 1
+  SeqLookup: 0 "ai form"
+EndFPST
 ContextPos2: coverage "'kern' wide form-1" 0 0 0 1
  2 0 0
   Coverage: 350 u11A0B u11A0C u11A0D u11A0E u11A0F u11A10 u11A11 u11A12 u11A13 u11A14 u11A15 u11A16 u11A17 u11A18 u11A19 u11A1A u11A1B u11A1C u11A1D u11A1E u11A1F u11A20 u11A21 u11A22 u11A23 u11A24 u11A25 u11A26 u11A27 u11A28 u11A29 u11A2A u11A2B u11A2C u11A2D u11A2E u11A2F u11A30 u11A31 u11A32 u11A3A u11A23.ai u11A24.ai u11A25.ai u11A26.ai u11A2C.head u11A30.head
@@ -93,16 +102,16 @@ ContextPos2: coverage "'kern' wide form-1" 0 0 0 1
  1
   SeqLookup: 0 "blank space on the left"
 EndFPST
-ContextSub2: coverage "'rclt' ai/au form-2" 0 0 0 1
+ContextSub2: coverage "'rclt' ai/au form for vowel-2" 0 0 0 1
  2 0 0
   Coverage: 37 u11A01.wide u11A01 u11A06.wide u11A06
   Coverage: 6 u11A08
  1
   SeqLookup: 0 "au form"
 EndFPST
-ContextSub2: coverage "'rclt' ai/au form-1" 0 0 0 1
+ContextSub2: coverage "'rclt' ai/au form for vowel-1" 0 0 0 1
  2 0 0
-  Coverage: 65 u11A04.wide u11A04 u11A06.wide u11A06 u11A23 u11A24 u11A25 u11A26
+  Coverage: 37 u11A04.wide u11A04 u11A06.wide u11A06
   Coverage: 6 u11A07
  1
   SeqLookup: 0 "ai form"
@@ -188,8 +197,8 @@ WinInfo: 72192 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-AnchorClass2: "above-mkmk" "'mkmk' above-1" "above" "'mark' above-1" "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
-BeginChars: 1116840 271
+AnchorClass2: "au" "'mark' above-1" "ai" "'mark' above-1" "above-mkmk" "'mkmk' above-1" "above" "'mark' above-1" "vowel-below-mkmk" "'mkmk' subjoined vowel or medial consonant-1" "vowel-below" "'mark' subjoined vowel or medial consonant-1" "vowel-length-sub" "'mkmk' subjoined consonant or vowel length mark-1" "vowel-length" "'mark' subjoined consonant or vowel length mark-1"
+BeginChars: 1116840 269
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3083,6 +3092,8 @@ Encoding: 72192 72192 117
 Width: 2400
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 2200 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 1200 1500 basechar 0
 AnchorPoint: "vowel-below" 2200 0 basechar 0
 AnchorPoint: "vowel-length" 2700 -350 basechar 0
@@ -3248,7 +3259,7 @@ Encoding: 72199 72199 124
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "ai" -200 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3260,7 +3271,6 @@ SplineSet
  -300 2000 l 1,5,-1
  200 2000 l 1,0,-1
 EndSplineSet
-Substitution2: "wide form-1" u11A07.wide
 EndChar
 
 StartChar: u11A08
@@ -3268,7 +3278,7 @@ Encoding: 72200 72200 125
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "above" -900 1500 mark 0
+AnchorPoint: "au" -1600 1500 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3280,7 +3290,6 @@ SplineSet
  -2000 1800 l 1,5,-1
  -2000 2000 l 1,0,-1
 EndSplineSet
-Substitution2: "wide form-1" u11A08.wide
 EndChar
 
 StartChar: u11A09
@@ -3324,6 +3333,8 @@ Encoding: 72203 72203 128
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3354,6 +3365,8 @@ Encoding: 72204 72204 129
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3383,6 +3396,8 @@ Encoding: 72205 72205 130
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3412,6 +3427,8 @@ Encoding: 72206 72206 131
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3445,6 +3462,8 @@ Encoding: 72207 72207 132
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3473,6 +3492,8 @@ Encoding: 72208 72208 133
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3502,6 +3523,8 @@ Encoding: 72209 72209 134
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3532,6 +3555,8 @@ Encoding: 72210 72210 135
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3560,6 +3585,8 @@ Encoding: 72211 72211 136
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3590,6 +3617,8 @@ Encoding: 72212 72212 137
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2000 -350 basechar 0
@@ -3618,6 +3647,8 @@ Encoding: 72213 72213 138
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2020 -350 basechar 0
@@ -3648,6 +3679,8 @@ Encoding: 72214 72214 139
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 1950 -350 basechar 0
@@ -3672,6 +3705,8 @@ Encoding: 72215 72215 140
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 1950 -350 basechar 0
@@ -3698,6 +3733,8 @@ Encoding: 72216 72216 141
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3726,6 +3763,8 @@ Encoding: 72217 72217 142
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3754,6 +3793,8 @@ Encoding: 72218 72218 143
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3784,6 +3825,8 @@ Encoding: 72219 72219 144
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3812,6 +3855,8 @@ Encoding: 72220 72220 145
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3845,6 +3890,8 @@ Encoding: 72221 72221 146
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3878,6 +3925,8 @@ Encoding: 72222 72222 147
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3902,6 +3951,8 @@ Encoding: 72223 72223 148
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3931,6 +3982,8 @@ Encoding: 72224 72224 149
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3956,6 +4009,8 @@ Encoding: 72225 72225 150
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -3983,6 +4038,8 @@ Encoding: 72226 72226 151
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4174,6 +4231,8 @@ Encoding: 72231 72231 156
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4207,6 +4266,8 @@ Encoding: 72232 72232 157
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4235,6 +4296,8 @@ Encoding: 72233 72233 158
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4265,6 +4328,8 @@ Encoding: 72234 72234 159
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4293,6 +4358,8 @@ Encoding: 72235 72235 160
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4325,6 +4392,8 @@ Encoding: 72236 72236 161
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4354,6 +4423,8 @@ Encoding: 72237 72237 162
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4396,6 +4467,8 @@ Encoding: 72238 72238 163
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4429,6 +4502,8 @@ Encoding: 72239 72239 164
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4462,6 +4537,8 @@ Encoding: 72240 72240 165
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4489,6 +4566,8 @@ Encoding: 72241 72241 166
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4519,6 +4598,8 @@ Encoding: 72242 72242 167
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -4801,6 +4882,8 @@ Encoding: 72250 72250 175
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
@@ -6059,6 +6142,8 @@ Encoding: 1116571 -1 220
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
@@ -6138,6 +6223,8 @@ Encoding: 1116675 -1 223
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "vowel-length" 2100 850 basechar 0
 LayerCount: 2
 Fore
@@ -7509,6 +7596,8 @@ Encoding: 1115344 -1 265
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -7545,6 +7634,8 @@ Encoding: 1115345 -1 266
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -7582,6 +7673,8 @@ Encoding: 1115346 -1 267
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -7617,6 +7710,8 @@ Encoding: 1115347 -1 268
 Width: 1800
 GlyphClass: 2
 Flags: W
+AnchorPoint: "ai" 1600 1500 basechar 0
+AnchorPoint: "au" 200 1500 basechar 0
 AnchorPoint: "above" 900 1500 basechar 0
 AnchorPoint: "vowel-below" 1600 0 basechar 0
 AnchorPoint: "vowel-length" 2100 -350 basechar 0
@@ -7662,44 +7757,6 @@ SplineSet
  1600 1496 l 1,0,-1
 EndSplineSet
 Position2: "blank space on the left-1" dx=600 dy=0 dh=600 dv=0
-EndChar
-
-StartChar: u11A07.wide
-Encoding: 1115319 -1 269
-Width: 0
-GlyphClass: 4
-Flags: W
-AnchorPoint: "above" -1200 1500 mark 0
-LayerCount: 2
-Fore
-SplineSet
--300 1500 m 1,0,-1
- -300 2000 l 1,1,-1
- 200 2000 l 1,2,-1
- 200 1800 l 1,3,-1
- -200 1800 l 1,4,-1
- -200 1500 l 1,5,-1
- -300 1500 l 1,0,-1
-EndSplineSet
-EndChar
-
-StartChar: u11A08.wide
-Encoding: 1115401 -1 270
-Width: 0
-GlyphClass: 4
-Flags: W
-AnchorPoint: "above" -1200 1500 mark 0
-LayerCount: 2
-Fore
-SplineSet
--2200 1500 m 1,0,-1
- -2200 1800 l 1,1,-1
- -2600 1800 l 1,2,-1
- -2600 2000 l 1,3,-1
- -2100 2000 l 1,4,-1
- -2100 1500 l 1,5,-1
- -2200 1500 l 1,0,-1
-EndSplineSet
 EndChar
 EndChars
 EndSplineFont
