@@ -22,7 +22,7 @@ OS2Version: 5
 OS2_WeightWidthSlopeOnly: 1
 OS2_UseTypoMetrics: 1
 CreationTime: 1509268789
-ModificationTime: 1518387655
+ModificationTime: 1518390050
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -64,13 +64,13 @@ Lookup: 6 0 0 "'rclt' lower form" { "'rclt' lower form-1"  } ['rclt' ('DFLT' <'S
 Lookup: 1 0 0 "lower form" { "lower form-1" ("low") } []
 Lookup: 6 0 0 "'rclt' head form" { "'rclt' head form-1"  } ['rclt' ('DFLT' <'dflt' > ) ]
 Lookup: 1 0 0 "head form" { "head form-1" ("head") } []
+Lookup: 5 1024 0 "'rclt' wide form below" { "'rclt' wide form below-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
+Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 4 0 1 "'rlig' subjoined consonant" { "'rlig' subjoined consonant-1"  } ['rlig' ('DFLT' <'SAN ' 'dflt' > ) ]
+Lookup: 5 256 0 "'rclt' wide form above" { "'rclt' wide form above-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 6 0 0 "'rclt' squished form" { "'rclt' squished form-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "squished form" { "squished form-1" ("squished") } []
 Lookup: 1 0 0 "'ccmp' default ignorable" { "'ccmp' default ignorable-1"  } ['ccmp' ('DFLT' <'SAN ' 'dflt' > ) ]
-Lookup: 5 256 0 "'rclt' wide form above" { "'rclt' wide form above-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
-Lookup: 5 1024 0 "'rclt' wide form below" { "'rclt' wide form below-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
-Lookup: 1 0 0 "wide form" { "wide form-1" ("wide") } []
 Lookup: 5 768 0 "'rclt' ai form for consonant" { "'rclt' ai form for consonant-1"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 5 0 0 "'rclt' ai/au form for vowel" { "'rclt' ai/au form for vowel-1"  "'rclt' ai/au form for vowel-2"  } ['rclt' ('DFLT' <'SAN ' 'dflt' > ) ]
 Lookup: 1 0 0 "ai form" { "ai form-1" ("ai") } []
@@ -197,7 +197,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 1116544 16 9
+WinInfo: 72176 16 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 921600 460800 307200 512000 -1048576 307200 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
